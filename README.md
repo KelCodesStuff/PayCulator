@@ -1,6 +1,6 @@
-# Payculator
+# PayCulator
 
-The Payculator app is designed to allow users to calculate their wage after their hourly rate, and hours worked are entered. Then if the user wants they can set a percentage to get a calculation after taxes are subtracted.
+The PayCulator app is designed to allow users to calculate their wage after their hourly rate, and hours worked are entered. Then if the user wants they can set a percentage to get a calculation after taxes are subtracted.
 
 ##Current Status and Project Goals
 

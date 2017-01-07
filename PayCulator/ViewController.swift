@@ -2,28 +2,18 @@
 //  ViewController.swift
 //  Payculator
 //
-//  Created by K. Reid on 5/1/16.
+// Created by K. Reid on 11/29/16.
 //  Copyright © 2016 K. Reid. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController
+class ViewController: UIViewController, UITextFieldDelegate
 {
     override func viewDidLoad()
     {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        // Looks for single or multiple taps
-        let tap: UITapGestureRecognizer =
-            UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
-        view.addGestureRecognizer(tap)
-    }
-    
-    func dismissKeyboard()
-    {
-        view.endEditing(true)
     }
     
     override func didReceiveMemoryWarning()
@@ -44,15 +34,26 @@ class ViewController: UIViewController
     // calculate salary function
     @IBAction func calculateSalary(_ sender: Any)
     {
-        var payRate = Float(payRateTextField.text!)
-        var hoursWorked = Float(hoursWorkedTextField.text!)
-        var percentWithheld = Float(percentWithheldTextField.text!)
+        
+        var numberFormatter = NumberFormatter()
+        
+        func formatPay(_ number:Double) -> String
+        {
+            numberFormatter.numberStyle = .currencyAccounting
+            numberFormatter.maximumIntegerDigits = 9
+            numberFormatter.maximumFractionDigits = 2
+            return numberFormatter.string(from: NSNumber(value: number))!
+        }
+        
+        var payRate = Double(payRateTextField.text!)
+        var hoursWorked = Double(hoursWorkedTextField.text!)
+        var percentWithheld = Double(percentWithheldTextField.text!)
         
         if(payRate == nil)
         {
             payRate = 0
         }
-        
+
         if(hoursWorked == nil)
         {
             hoursWorked = 0
@@ -68,63 +69,44 @@ class ViewController: UIViewController
         if(hoursWorked! > 40)
         {
             // overtime algorithm
-            weekPay = 40 * payRate! + (hoursWorked! - 40) * payRate! * 1.5
+            weekPay = 40.0 * payRate! + (hoursWorked! - 40.0) * payRate! * 1.5
             weekPay = weekPay * (1 - (percentWithheld! / 100))
         }
+        
         else
         {
             weekPay = (payRate! * hoursWorked!) * (1 - (percentWithheld! / 100))
         }
         
-        // format week pay
-        let weekPayFormatter = NumberFormatter()
-        weekPayFormatter.numberStyle = .currencyAccounting
-        
-        // format biweek pay
-        let biweekPayFormatter = NumberFormatter()
-        biweekPayFormatter.numberStyle = .currencyAccounting
-        
-        // format month pay
-        let monthPayFormatter = NumberFormatter()
-        monthPayFormatter.numberStyle = .currencyAccounting
-        
-        // format year pay
-        let yearPayFormatter = NumberFormatter()
-        yearPayFormatter.numberStyle = .currencyAccounting
-        
         // output week pay
-        let weekPayString = weekPayFormatter.string(from: NSNumber(value: weekPay))
-        weekPayLabel.text = weekPayString ?? "0"
+        let weekPayString = formatPay(weekPay)
+        weekPayLabel.text = weekPayString 
         
         // output biweek pay
-        let biweekPayString = biweekPayFormatter.string(from: NSNumber(value: weekPay * 2))
-        biweekPayLabel.text = biweekPayString ?? "0"
+        let biweekPayString = formatPay(weekPay * 2)
+        biweekPayLabel.text = biweekPayString 
         
         // output month pay
-        let monthPayString = monthPayFormatter.string(from: NSNumber(value: weekPay * 52 / 12))
-        monthPayLabel.text = monthPayString ?? "0"
+        let monthPayString = formatPay(weekPay * 52 / 12)
+        monthPayLabel.text = monthPayString
         
         // output yearly pay
-        let yearPayString = yearPayFormatter.string(from: NSNumber(value: weekPay * 52))
-        yearPayLabel.text = yearPayString ?? "0"
+        let yearPayString = formatPay(weekPay * 52)
+        yearPayLabel.text = yearPayString
         
-        if(payRate!  <= 0)
+        if(payRate! <= 0)
         {
-            let alert = UIAlertController(title: "Alert!", message: "Pay Rate cannot be zero or blank", preferredStyle: UIAlertControllerStyle.alert)
-            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
-            self.present(alert, animated: true, completion: nil)
+            let alert = UIAlertController(title: "Alert!", message: "Pay Rate can't be zero or empty", preferredStyle: UIAlertControllerStyle.alert)
+                alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+                self.present(alert, animated: true, completion: nil)
         }
         
-        if(hoursWorked!  <= 0)
+        if(hoursWorked! <= 0)
         {
-            let alert = UIAlertController(title: "Alert!", message: "Hours Worked cannot be zero or blank", preferredStyle: UIAlertControllerStyle.alert)
-            alert.addAction( UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
-            self.present(alert, animated: true, completion: nil)
+            let alert = UIAlertController(title: "Alert!", message: "Hours Worked can't be zero or empty", preferredStyle: UIAlertControllerStyle.alert)
+                alert.addAction( UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+                self.present(alert, animated: true, completion: nil)
         }
-        
-        // Data Sources
-        
-        // Delegates
 
     }
 
