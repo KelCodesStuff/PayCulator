@@ -101,7 +101,6 @@ class ViewController: UIViewController, UITextFieldDelegate
                 self.present(alert, animated: true, completion: nil)
         }
         
-        
         if(hoursWorked! <= 0)
         {
             let alert = UIAlertController(title: "Alert!", message: "Hours Worked can't be zero or empty", preferredStyle: UIAlertControllerStyle.alert)
