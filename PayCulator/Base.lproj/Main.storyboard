@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -23,38 +23,44 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pay Rate" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LQD-E4-G5g">
-                                <rect key="frame" x="16" y="40" width="160" height="30"/>
+                                <rect key="frame" x="16" y="40" width="140" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="160" id="5rn-bx-YHI"/>
+                                    <constraint firstAttribute="width" constant="140" id="5rn-bx-YHI"/>
                                     <constraint firstAttribute="height" constant="30" id="Ang-kf-vld"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="right" clearsOnBeginEditing="YES" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="F7S-8J-K6f">
-                                <rect key="frame" x="259" y="80" width="100" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="right" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="F7S-8J-K6f">
+                                <rect key="frame" x="224" y="80" width="135" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="tso-lG-969"/>
+                                    <constraint firstAttribute="width" constant="135" id="tso-lG-969"/>
                                     <constraint firstAttribute="height" constant="30" id="uZA-M4-nCx"/>
                                 </constraints>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="light"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="maxLength">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bi-Weekly" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xlc-rH-Zgq">
-                                <rect key="frame" x="16" y="208" width="160" height="30"/>
+                                <rect key="frame" x="16" y="208" width="140" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="6NK-pT-MDb"/>
-                                    <constraint firstAttribute="width" constant="160" id="vNH-FL-Ue3"/>
+                                    <constraint firstAttribute="width" constant="140" id="vNH-FL-Ue3"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="247" text="Monthly" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r90-xi-5TM">
-                                <rect key="frame" x="16" y="246" width="160" height="30"/>
+                                <rect key="frame" x="16" y="246" width="140" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="160" id="fWW-U1-vT6"/>
+                                    <constraint firstAttribute="width" constant="140" id="fWW-U1-vT6"/>
                                     <constraint firstAttribute="height" constant="30" id="xqa-Ys-ewD"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
@@ -62,67 +68,79 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hours Worked" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="McF-98-IpS">
-                                <rect key="frame" x="16" y="80" width="160" height="30"/>
+                                <rect key="frame" x="16" y="80" width="140" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="160" id="6qs-ib-KOx"/>
+                                    <constraint firstAttribute="width" constant="140" id="6qs-ib-KOx"/>
                                     <constraint firstAttribute="height" constant="30" id="NyV-rW-E9n"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="right" clearsOnBeginEditing="YES" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="bV2-mX-M7x">
-                                <rect key="frame" x="259" y="40" width="100" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="right" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="bV2-mX-M7x">
+                                <rect key="frame" x="224" y="40" width="135" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="HJA-Dp-WgI"/>
+                                    <constraint firstAttribute="width" constant="135" id="HJA-Dp-WgI"/>
                                     <constraint firstAttribute="height" constant="30" id="iFZ-Z5-0s0"/>
                                 </constraints>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="light"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="maxLength">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Percent Withheld" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C2Y-Bh-4yj">
-                                <rect key="frame" x="16" y="120" width="160" height="30"/>
+                                <rect key="frame" x="16" y="120" width="140" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="6i2-yi-Lko"/>
-                                    <constraint firstAttribute="width" constant="160" id="Wox-pz-Bdh"/>
+                                    <constraint firstAttribute="width" constant="140" id="Wox-pz-Bdh"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="242" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OlV-ip-j2I">
-                                <rect key="frame" x="239" y="284" width="120" height="30"/>
+                                <rect key="frame" x="199" y="284" width="160" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Nyb-iA-rTK"/>
-                                    <constraint firstAttribute="width" constant="120" id="OpO-Wv-FvK"/>
+                                    <constraint firstAttribute="width" constant="160" id="OpO-Wv-FvK"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ko7-SO-6Db">
-                                <rect key="frame" x="239" y="246" width="120" height="30"/>
+                                <rect key="frame" x="199" y="246" width="160" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="78z-Px-xzV"/>
+                                    <constraint firstAttribute="width" constant="160" id="78z-Px-xzV"/>
                                     <constraint firstAttribute="height" constant="30" id="hmC-xH-RKc"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="right" clearsOnBeginEditing="YES" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="tDB-gr-0sm">
-                                <rect key="frame" x="259" y="120" width="100" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="right" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="tDB-gr-0sm">
+                                <rect key="frame" x="224" y="120" width="135" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="0VH-T0-tB2"/>
+                                    <constraint firstAttribute="width" constant="135" id="0VH-T0-tB2"/>
                                     <constraint firstAttribute="height" constant="30" id="YZU-ml-6od"/>
                                 </constraints>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad" keyboardAppearance="light"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="maxLength">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="238" text="0" textAlignment="right" lineBreakMode="headTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Hu-DH-Kta">
-                                <rect key="frame" x="239" y="208" width="120" height="30"/>
+                                <rect key="frame" x="199" y="208" width="160" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="BXf-d5-9XD"/>
+                                    <constraint firstAttribute="width" constant="160" id="BXf-d5-9XD"/>
                                     <constraint firstAttribute="height" constant="30" id="LLh-CI-Qb7"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
@@ -130,19 +148,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="239" text="Weekly" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="8CW-z0-mQ9">
-                                <rect key="frame" x="16" y="170" width="160" height="30"/>
+                                <rect key="frame" x="16" y="170" width="140" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="415-PQ-n2K"/>
-                                    <constraint firstAttribute="width" constant="160" id="nfL-ah-lDE"/>
+                                    <constraint firstAttribute="width" constant="140" id="nfL-ah-lDE"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yearly" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BI2-WJ-cs0">
-                                <rect key="frame" x="16" y="284" width="160" height="30"/>
+                                <rect key="frame" x="16" y="284" width="140" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="160" id="OkF-St-OcW"/>
+                                    <constraint firstAttribute="width" constant="140" id="OkF-St-OcW"/>
                                     <constraint firstAttribute="height" constant="30" id="S4P-wG-uV2"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
@@ -150,9 +168,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="247" text="0" textAlignment="right" lineBreakMode="headTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NMF-fx-qFo">
-                                <rect key="frame" x="239" y="170" width="120" height="30"/>
+                                <rect key="frame" x="199" y="170" width="160" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="DPB-xc-spP"/>
+                                    <constraint firstAttribute="width" constant="160" id="DPB-xc-spP"/>
                                     <constraint firstAttribute="height" constant="30" id="emh-1O-Gfb"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
@@ -233,7 +251,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="352.5" y="168.5"/>
+            <point key="canvasLocation" x="351.19999999999999" y="167.76611694152925"/>
         </scene>
     </scenes>
 </document>

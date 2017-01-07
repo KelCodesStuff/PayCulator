@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C1724C71E209F5900187815 /* TextFieldMaxLengths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1724C61E209F5900187815 /* TextFieldMaxLengths.swift */; };
 		0CF5F6E91DEE913600E8B4EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF5F6E81DEE913600E8B4EF /* AppDelegate.swift */; };
 		0CF5F6EB1DEE913600E8B4EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF5F6EA1DEE913600E8B4EF /* ViewController.swift */; };
 		0CF5F6EE1DEE913600E8B4EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CF5F6EC1DEE913600E8B4EF /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C1724C61E209F5900187815 /* TextFieldMaxLengths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldMaxLengths.swift; sourceTree = "<group>"; };
 		0CF5F6E51DEE913600E8B4EF /* PayCulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayCulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF5F6E81DEE913600E8B4EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CF5F6EA1DEE913600E8B4EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				0CF5F6E81DEE913600E8B4EF /* AppDelegate.swift */,
 				0CF5F6EA1DEE913600E8B4EF /* ViewController.swift */,
+				0C1724C61E209F5900187815 /* TextFieldMaxLengths.swift */,
 				0CF5F6EC1DEE913600E8B4EF /* Main.storyboard */,
 				0CF5F6F21DEE913600E8B4EF /* Assets.xcassets */,
 				0CF5F6F41DEE913600E8B4EF /* LaunchScreen.storyboard */,
@@ -191,7 +194,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "K. Reid";
 				TargetAttributes = {
 					0CF5F6E41DEE913500E8B4EF = {
@@ -214,7 +217,7 @@
 				};
 			};
 			buildConfigurationList = 0CF5F6E01DEE913500E8B4EF /* Build configuration list for PBXProject "PayCulator" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -267,6 +270,7 @@
 			files = (
 				0CF5F6EB1DEE913600E8B4EF /* ViewController.swift in Sources */,
 				0CF5F6E91DEE913600E8B4EF /* AppDelegate.swift in Sources */,
+				0C1724C71E209F5900187815 /* TextFieldMaxLengths.swift in Sources */,
 				0CF5F6F11DEE913600E8B4EF /* PayCulator.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +344,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -390,6 +395,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -518,6 +524,7 @@
 				0CF5F7121DEE913600E8B4EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CF5F7131DEE913600E8B4EF /* Build configuration list for PBXNativeTarget "PayCulatorTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +533,7 @@
 				0CF5F7151DEE913600E8B4EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CF5F7161DEE913600E8B4EF /* Build configuration list for PBXNativeTarget "PayCulatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +542,7 @@
 				0CF5F7181DEE913600E8B4EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
