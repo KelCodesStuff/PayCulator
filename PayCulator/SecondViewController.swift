@@ -1,40 +1,22 @@
 //
-//  ViewController.swift
-//  Payculator
+//  Results.swift
+//  PayCulator
 //
-// Created by K. Reid on 11/29/16.
-//  Copyright © 2016 K. Reid. All rights reserved.
+//  Created by K. Reid on 1/16/17.
+//  Copyright © 2017 K. Reid. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController, UITextFieldDelegate
+class Results: UIViewController
 {
-    override func viewDidLoad()
+
+    var ViewController: ViewController?
+    
+    Results.ViewController = ViewController
+   
+    func calculations()
     {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-    
-    override func didReceiveMemoryWarning()
-    {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    @IBOutlet var payRateTextField: UITextField!
-    @IBOutlet var hoursWorkedTextField: UITextField!
-    @IBOutlet var percentWithheldTextField: UITextField!
-    
-    @IBOutlet var weekPayLabel: UILabel!
-    @IBOutlet var biweekPayLabel: UILabel!
-    @IBOutlet var monthPayLabel: UILabel!
-    @IBOutlet var yearPayLabel: UILabel!
-    
-    // calculate salary function
-    @IBAction func calculateSalary(_ sender: Any)
-    {
-        
         var numberFormatter = NumberFormatter()
         
         func formatPay(_ number:Double) -> String
@@ -53,7 +35,7 @@ class ViewController: UIViewController, UITextFieldDelegate
         {
             payRate = 0
         }
-
+        
         if(hoursWorked == nil)
         {
             hoursWorked = 0
@@ -72,7 +54,7 @@ class ViewController: UIViewController, UITextFieldDelegate
             weekPay = 40.0 * payRate! + (hoursWorked! - 40.0) * payRate! * 1.5
             weekPay = weekPay * (1 - (percentWithheld! / 100))
         }
-        
+            
         else
         {
             weekPay = (payRate! * hoursWorked!) * (1 - (percentWithheld! / 100))
@@ -80,11 +62,11 @@ class ViewController: UIViewController, UITextFieldDelegate
         
         // output week pay
         let weekPayString = formatPay(weekPay)
-        weekPayLabel.text = weekPayString 
+        weekPayLabel.text = weekPayString
         
         // output biweek pay
         let biweekPayString = formatPay(weekPay * 2)
-        biweekPayLabel.text = biweekPayString 
+        biweekPayLabel.text = biweekPayString
         
         // output month pay
         let monthPayString = formatPay(weekPay * 52 / 12)
@@ -97,17 +79,30 @@ class ViewController: UIViewController, UITextFieldDelegate
         if(payRate! <= 0)
         {
             let alert = UIAlertController(title: "Alert!", message: "Pay Rate can't be zero or empty", preferredStyle: UIAlertControllerStyle.alert)
-                alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
-                self.present(alert, animated: true, completion: nil)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
         }
         
         if(hoursWorked! <= 0)
         {
             let alert = UIAlertController(title: "Alert!", message: "Hours Worked can't be zero or empty", preferredStyle: UIAlertControllerStyle.alert)
-                alert.addAction( UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
-                self.present(alert, animated: true, completion: nil)
+            alert.addAction( UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
         }
-
+        
     }
 
-}
+    }
+    
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
+
