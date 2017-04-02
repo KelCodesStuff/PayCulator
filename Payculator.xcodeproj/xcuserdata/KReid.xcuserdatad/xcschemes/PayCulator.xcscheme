@@ -17,7 +17,7 @@
                BlueprintIdentifier = "0CF5F6E41DEE913500E8B4EF"
                BuildableName = "PayCulator.app"
                BlueprintName = "PayCulator"
-               ReferencedContainer = "container:PayCulator.xcodeproj">
+               ReferencedContainer = "container:Payculator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "0CF5F6FB1DEE913600E8B4EF"
                BuildableName = "PayCulatorTests.xctest"
                BlueprintName = "PayCulatorTests"
-               ReferencedContainer = "container:PayCulator.xcodeproj">
+               ReferencedContainer = "container:Payculator.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "0CF5F7061DEE913600E8B4EF"
                BuildableName = "PayCulatorUITests.xctest"
                BlueprintName = "PayCulatorUITests"
-               ReferencedContainer = "container:PayCulator.xcodeproj">
+               ReferencedContainer = "container:Payculator.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,7 +55,7 @@
             BlueprintIdentifier = "0CF5F6E41DEE913500E8B4EF"
             BuildableName = "PayCulator.app"
             BlueprintName = "PayCulator"
-            ReferencedContainer = "container:PayCulator.xcodeproj">
+            ReferencedContainer = "container:Payculator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -78,7 +78,7 @@
             BlueprintIdentifier = "0CF5F6E41DEE913500E8B4EF"
             BuildableName = "PayCulator.app"
             BlueprintName = "PayCulator"
-            ReferencedContainer = "container:PayCulator.xcodeproj">
+            ReferencedContainer = "container:Payculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -97,7 +97,7 @@
             BlueprintIdentifier = "0CF5F6E41DEE913500E8B4EF"
             BuildableName = "PayCulator.app"
             BlueprintName = "PayCulator"
-            ReferencedContainer = "container:PayCulator.xcodeproj">
+            ReferencedContainer = "container:Payculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

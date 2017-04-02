@@ -14,8 +14,8 @@
 		0CF5F6F11DEE913600E8B4EF /* PayCulator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0CF5F6EF1DEE913600E8B4EF /* PayCulator.xcdatamodeld */; };
 		0CF5F6F31DEE913600E8B4EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CF5F6F21DEE913600E8B4EF /* Assets.xcassets */; };
 		0CF5F6F61DEE913600E8B4EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CF5F6F41DEE913600E8B4EF /* LaunchScreen.storyboard */; };
-		0CF5F7011DEE913600E8B4EF /* PayCulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF5F7001DEE913600E8B4EF /* PayCulatorTests.swift */; };
-		0CF5F70C1DEE913600E8B4EF /* PayCulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF5F70B1DEE913600E8B4EF /* PayCulatorUITests.swift */; };
+		0CF5F7011DEE913600E8B4EF /* PayculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF5F7001DEE913600E8B4EF /* PayculatorTests.swift */; };
+		0CF5F70C1DEE913600E8B4EF /* PayculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF5F70B1DEE913600E8B4EF /* PayculatorUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,10 +46,10 @@
 		0CF5F6F51DEE913600E8B4EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CF5F6F71DEE913600E8B4EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CF5F6FC1DEE913600E8B4EF /* PayCulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayCulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CF5F7001DEE913600E8B4EF /* PayCulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayCulatorTests.swift; sourceTree = "<group>"; };
+		0CF5F7001DEE913600E8B4EF /* PayculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayculatorTests.swift; sourceTree = "<group>"; };
 		0CF5F7021DEE913600E8B4EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CF5F7071DEE913600E8B4EF /* PayCulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayCulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CF5F70B1DEE913600E8B4EF /* PayCulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayCulatorUITests.swift; sourceTree = "<group>"; };
+		0CF5F70B1DEE913600E8B4EF /* PayculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayculatorUITests.swift; sourceTree = "<group>"; };
 		0CF5F70D1DEE913600E8B4EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,9 +81,9 @@
 		0CF5F6DC1DEE913500E8B4EF = {
 			isa = PBXGroup;
 			children = (
-				0CF5F6E71DEE913600E8B4EF /* PayCulator */,
-				0CF5F6FF1DEE913600E8B4EF /* PayCulatorTests */,
-				0CF5F70A1DEE913600E8B4EF /* PayCulatorUITests */,
+				0CF5F6E71DEE913600E8B4EF /* Payculator */,
+				0CF5F6FF1DEE913600E8B4EF /* PayculatorTests */,
+				0CF5F70A1DEE913600E8B4EF /* PayculatorUITests */,
 				0CF5F6E61DEE913600E8B4EF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,7 +98,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0CF5F6E71DEE913600E8B4EF /* PayCulator */ = {
+		0CF5F6E71DEE913600E8B4EF /* Payculator */ = {
 			isa = PBXGroup;
 			children = (
 				0CF5F6E81DEE913600E8B4EF /* AppDelegate.swift */,
@@ -110,24 +110,27 @@
 				0CF5F6F71DEE913600E8B4EF /* Info.plist */,
 				0CF5F6EF1DEE913600E8B4EF /* PayCulator.xcdatamodeld */,
 			);
+			name = Payculator;
 			path = PayCulator;
 			sourceTree = "<group>";
 		};
-		0CF5F6FF1DEE913600E8B4EF /* PayCulatorTests */ = {
+		0CF5F6FF1DEE913600E8B4EF /* PayculatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				0CF5F7001DEE913600E8B4EF /* PayCulatorTests.swift */,
+				0CF5F7001DEE913600E8B4EF /* PayculatorTests.swift */,
 				0CF5F7021DEE913600E8B4EF /* Info.plist */,
 			);
+			name = PayculatorTests;
 			path = PayCulatorTests;
 			sourceTree = "<group>";
 		};
-		0CF5F70A1DEE913600E8B4EF /* PayCulatorUITests */ = {
+		0CF5F70A1DEE913600E8B4EF /* PayculatorUITests */ = {
 			isa = PBXGroup;
 			children = (
-				0CF5F70B1DEE913600E8B4EF /* PayCulatorUITests.swift */,
+				0CF5F70B1DEE913600E8B4EF /* PayculatorUITests.swift */,
 				0CF5F70D1DEE913600E8B4EF /* Info.plist */,
 			);
+			name = PayculatorUITests;
 			path = PayCulatorUITests;
 			sourceTree = "<group>";
 		};
@@ -199,7 +202,6 @@
 				TargetAttributes = {
 					0CF5F6E41DEE913500E8B4EF = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = WC92Z884R6;
 						ProvisioningStyle = Automatic;
 					};
 					0CF5F6FB1DEE913600E8B4EF = {
@@ -216,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0CF5F6E01DEE913500E8B4EF /* Build configuration list for PBXProject "PayCulator" */;
+			buildConfigurationList = 0CF5F6E01DEE913500E8B4EF /* Build configuration list for PBXProject "Payculator" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -279,7 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CF5F7011DEE913600E8B4EF /* PayCulatorTests.swift in Sources */,
+				0CF5F7011DEE913600E8B4EF /* PayculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CF5F70C1DEE913600E8B4EF /* PayCulatorUITests.swift in Sources */,
+				0CF5F70C1DEE913600E8B4EF /* PayculatorUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,7 +430,7 @@
 				DEVELOPMENT_TEAM = WC92Z884R6;
 				INFOPLIST_FILE = PayCulator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.KReid.PayCulator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KReid.Payculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -441,7 +443,7 @@
 				DEVELOPMENT_TEAM = WC92Z884R6;
 				INFOPLIST_FILE = PayCulator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.KReid.PayCulator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KReid.Payculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -458,7 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.KReid.PayCulatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayCulator.app/PayCulator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Payculator.temp_caseinsensitive_rename.app/Payculator.temp_caseinsensitive_rename";
 			};
 			name = Debug;
 		};
@@ -473,7 +475,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.KReid.PayCulatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayCulator.app/PayCulator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Payculator.temp_caseinsensitive_rename.app/Payculator.temp_caseinsensitive_rename";
 			};
 			name = Release;
 		};
@@ -508,7 +510,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0CF5F6E01DEE913500E8B4EF /* Build configuration list for PBXProject "PayCulator" */ = {
+		0CF5F6E01DEE913500E8B4EF /* Build configuration list for PBXProject "Payculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0CF5F70E1DEE913600E8B4EF /* Debug */,
