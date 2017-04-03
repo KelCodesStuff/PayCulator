@@ -1,6 +1,6 @@
 //
 //  TextFieldMaxLengths.swift
-//  PayCulator
+//  Payculator
 //
 //  Created by K. Reid on 1/6/17.
 //  Copyright © 2017 K. Reid. All rights reserved.

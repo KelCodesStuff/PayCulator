@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  PayCulator
+//  Payculator
 //
 //  Created by K. Reid on 11/29/16.
 //  Copyright © 2016 K. Reid. All rights reserved.
