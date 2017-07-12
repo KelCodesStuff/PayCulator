@@ -3,8 +3,9 @@
 //  Payculator
 //
 //  Created by K. Reid on 1/6/17.
-//  Copyright © 2017 K. Reid. All rights reserved.
+//  Copyright © 2017 KelCodesStuff All rights reserved.
 //
+
 
 import Foundation
 import UIKit

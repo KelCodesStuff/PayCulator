@@ -3,8 +3,9 @@
 //  PayculatorTests
 //
 //  Created by K. Reid on 11/29/16.
-//  Copyright © 2016 K. Reid. All rights reserved.
+//  Copyright © 2017 KelCodesStuff All rights reserved.
 //
+
 
 import XCTest
 @testable import PayCulator
