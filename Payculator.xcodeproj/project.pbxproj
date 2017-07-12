@@ -195,7 +195,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = "K. Reid";
+				ORGANIZATIONNAME = KelCodesStuff;
 				TargetAttributes = {
 					0CF5F6E41DEE913500E8B4EF = {
 						CreatedOnToolsVersion = 8.1;
