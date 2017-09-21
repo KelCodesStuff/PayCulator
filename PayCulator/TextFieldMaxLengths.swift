@@ -2,51 +2,42 @@
 //  TextFieldMaxLengths.swift
 //  Payculator
 //
-//  Created by K. Reid on 1/6/17.
-//  Copyright © 2017 KelCodesStuff All rights reserved.
+//  Created by Kel Reid on 1/6/17.
 //
-
 
 import Foundation
 import UIKit
 
+// View technical doc for explanation
 // 1
 private var maxLengths = [UITextField: Int]()
 
 // 2
-extension UITextField
-{
+extension UITextField {
     
 // 3
-    @IBInspectable var maxLength: Int
-    {
-        get
-        {
+    @IBInspectable var maxLength: Int {
+        get {
 // 4
-            guard let length = maxLengths[self] else
-            {
+            guard let length = maxLengths[self] else {
                 return Int.max
             }
             return length
         }
-        set
-        {
+        set {
             maxLengths[self] = newValue
 // 5
             addTarget(
                 self,
                 action: #selector(limitLength),
-                for: UIControlEvents.editingChanged
-            )
+                for: UIControlEvents.editingChanged)
         }
     }
     
-    func limitLength(textField: UITextField)
-    {
+    @objc func limitLength(textField: UITextField) {
 // 6
         guard let prospectiveText = textField.text, prospectiveText.characters.count > maxLength
-        else
-        {
+        else {
             return
         }
         
@@ -56,5 +47,4 @@ extension UITextField
         text = prospectiveText.substring(to: maxCharIndex)
         selectedTextRange = selection
     }
-    
 }

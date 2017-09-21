@@ -2,22 +2,18 @@
 //  ViewController.swift
 //  Payculator
 //
-//  Created by K. Reid on 11/29/16.
-//  Copyright © 2017 KelCodesStuff All rights reserved.
+//  Created by Kel Reid on 11/29/16.
 //
 
 import UIKit
 
-class ViewController: UIViewController, UITextFieldDelegate
-{
-    override func viewDidLoad()
-    {
+class ViewController: UIViewController, UITextFieldDelegate {
+    override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
-    override func didReceiveMemoryWarning()
-    {
+    override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
@@ -32,13 +28,11 @@ class ViewController: UIViewController, UITextFieldDelegate
     @IBOutlet var yearPayLabel: UILabel!
     
     // calculate salary function
-    @IBAction func calculateSalary(_ sender: Any)
-    {
+    @IBAction func calculateSalary(_ sender: Any) {
         
         var numberFormatter = NumberFormatter()
         
-        func formatPay(_ number:Double) -> String
-        {
+        func formatPay(_ number:Double) -> String {
             numberFormatter.numberStyle = .currencyAccounting
             numberFormatter.maximumIntegerDigits = 9
             numberFormatter.maximumFractionDigits = 2
@@ -49,32 +43,27 @@ class ViewController: UIViewController, UITextFieldDelegate
         var hoursWorked = Double(hoursWorkedTextField.text!)
         var percentWithheld = Double(percentWithheldTextField.text!)
         
-        if(payRate == nil)
-        {
+        if(payRate == nil) {
             payRate = 0
         }
 
-        if(hoursWorked == nil)
-        {
+        if(hoursWorked == nil) {
             hoursWorked = 0
         }
         
-        if(percentWithheld == nil)
-        {
+        if(percentWithheld == nil) {
             percentWithheld = 0
         }
         
         var weekPay = payRate! * hoursWorked!
         
-        if(hoursWorked! > 40)
-        {
+        if(hoursWorked! > 40) {
             // overtime algorithm
             weekPay = 40.0 * payRate! + (hoursWorked! - 40.0) * payRate! * 1.5
             weekPay = weekPay * (1 - (percentWithheld! / 100))
         }
         
-        else
-        {
+        else {
             weekPay = (payRate! * hoursWorked!) * (1 - (percentWithheld! / 100))
         }
         
@@ -94,15 +83,13 @@ class ViewController: UIViewController, UITextFieldDelegate
         let yearPayString = formatPay(weekPay * 52)
         yearPayLabel.text = yearPayString
         
-        if(payRate! <= 0)
-        {
+        if(payRate! <= 0) {
             let alert = UIAlertController(title: "Alert!", message: "Pay Rate can't be zero or empty", preferredStyle: UIAlertControllerStyle.alert)
                 alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
                 self.present(alert, animated: true, completion: nil)
         }
         
-        if(hoursWorked! <= 0)
-        {
+        if(hoursWorked! <= 0) {
             let alert = UIAlertController(title: "Alert!", message: "Hours Worked can't be zero or empty", preferredStyle: UIAlertControllerStyle.alert)
                 alert.addAction( UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
                 self.present(alert, animated: true, completion: nil)
