@@ -4,4 +4,4 @@ The Payculator app is designed to allow users to calculate their wage after thei
 
 ## Current Status and Project Goals
 
-This project is in the very earliest stages of development. It is scheduled to be released in the iOS App Store.
+This project is in the beta stage of development. Email me if you would like to participate in the beta. All help is appreciated.
