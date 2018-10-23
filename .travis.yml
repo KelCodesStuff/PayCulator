@@ -1,4 +1,6 @@
 language: objective-c
-osx_image: xcode9.2
+osx_image: xcode10
 script:
     - xcodebuild clean test -project Payculator.xcodeproj -scheme Payculator -destination "platform=iOS Simulator,name=iPhone 8,OS=11.2" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO -quiet
+after_success:
+  - bash <(curl -s https://codecov.io/bash) -t uuid-repo-token
