@@ -3,70 +3,75 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C1724C71E209F5900187815 /* TextFieldMaxLengths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1724C61E209F5900187815 /* TextFieldMaxLengths.swift */; };
-		0CF5F6E91DEE913600E8B4EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF5F6E81DEE913600E8B4EF /* AppDelegate.swift */; };
-		0CF5F6EB1DEE913600E8B4EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF5F6EA1DEE913600E8B4EF /* ViewController.swift */; };
-		0CF5F6EE1DEE913600E8B4EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CF5F6EC1DEE913600E8B4EF /* Main.storyboard */; };
-		0CF5F6F31DEE913600E8B4EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CF5F6F21DEE913600E8B4EF /* Assets.xcassets */; };
-		0CF5F6F61DEE913600E8B4EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CF5F6F41DEE913600E8B4EF /* LaunchScreen.storyboard */; };
-		0CF5F7011DEE913600E8B4EF /* PayculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF5F7001DEE913600E8B4EF /* PayculatorTests.swift */; };
-		0CF5F70C1DEE913600E8B4EF /* PayculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF5F70B1DEE913600E8B4EF /* PayculatorUITests.swift */; };
+		0C354779217EBA460023C313 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C354778217EBA460023C313 /* AppDelegate.swift */; };
+		0C35477B217EBA460023C313 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C35477A217EBA460023C313 /* ViewController.swift */; };
+		0C35477E217EBA460023C313 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C35477C217EBA460023C313 /* Main.storyboard */; };
+		0C354780217EBA470023C313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C35477F217EBA470023C313 /* Assets.xcassets */; };
+		0C354783217EBA470023C313 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C354781217EBA470023C313 /* LaunchScreen.storyboard */; };
+		0C35478E217EBA470023C313 /* PayculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C35478D217EBA470023C313 /* PayculatorTests.swift */; };
+		0C354799217EBA470023C313 /* PayculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C354798217EBA470023C313 /* PayculatorUITests.swift */; };
+		0C3547AD217EC1BE0023C313 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0C3547AC217EC1BE0023C313 /* README.md */; };
+		F71AE75605EA78D3F2732A9B /* Pods_Payculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F799C8743544C8EF816C71B /* Pods_Payculator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0CF5F6FD1DEE913600E8B4EF /* PBXContainerItemProxy */ = {
+		0C35478A217EBA470023C313 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0CF5F6DD1DEE913500E8B4EF /* Project object */;
+			containerPortal = 0C35476D217EBA460023C313 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0CF5F6E41DEE913500E8B4EF;
-			remoteInfo = PayCulator;
+			remoteGlobalIDString = 0C354774217EBA460023C313;
+			remoteInfo = Payculator;
 		};
-		0CF5F7081DEE913600E8B4EF /* PBXContainerItemProxy */ = {
+		0C354795217EBA470023C313 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0CF5F6DD1DEE913500E8B4EF /* Project object */;
+			containerPortal = 0C35476D217EBA460023C313 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0CF5F6E41DEE913500E8B4EF;
-			remoteInfo = PayCulator;
+			remoteGlobalIDString = 0C354774217EBA460023C313;
+			remoteInfo = Payculator;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C1724C61E209F5900187815 /* TextFieldMaxLengths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldMaxLengths.swift; sourceTree = "<group>"; };
-		0CF5F6E51DEE913600E8B4EF /* PayCulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayCulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CF5F6E81DEE913600E8B4EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0CF5F6EA1DEE913600E8B4EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0CF5F6ED1DEE913600E8B4EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0CF5F6F21DEE913600E8B4EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0CF5F6F51DEE913600E8B4EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0CF5F6F71DEE913600E8B4EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0CF5F6FC1DEE913600E8B4EF /* PayCulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayCulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CF5F7001DEE913600E8B4EF /* PayculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayculatorTests.swift; sourceTree = "<group>"; };
-		0CF5F7021DEE913600E8B4EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0CF5F7071DEE913600E8B4EF /* PayCulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayCulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CF5F70B1DEE913600E8B4EF /* PayculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayculatorUITests.swift; sourceTree = "<group>"; };
-		0CF5F70D1DEE913600E8B4EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C354775217EBA460023C313 /* Payculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Payculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C354778217EBA460023C313 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0C35477A217EBA460023C313 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0C35477D217EBA460023C313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C35477F217EBA470023C313 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C354782217EBA470023C313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C354784217EBA470023C313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C354789217EBA470023C313 /* PayculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C35478D217EBA470023C313 /* PayculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayculatorTests.swift; sourceTree = "<group>"; };
+		0C35478F217EBA470023C313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C354794217EBA470023C313 /* PayculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C354798217EBA470023C313 /* PayculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayculatorUITests.swift; sourceTree = "<group>"; };
+		0C35479A217EBA470023C313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C3547AC217EC1BE0023C313 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		36E5DD17586263973A0B2693 /* Pods-Payculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Payculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Payculator/Pods-Payculator.release.xcconfig"; sourceTree = "<group>"; };
+		3F799C8743544C8EF816C71B /* Pods_Payculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Payculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C04FFDF59F0EAA47DD7D0BF /* Pods-Payculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Payculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Payculator/Pods-Payculator.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0CF5F6E21DEE913500E8B4EF /* Frameworks */ = {
+		0C354772217EBA460023C313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71AE75605EA78D3F2732A9B /* Pods_Payculator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C354786217EBA470023C313 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0CF5F6F91DEE913600E8B4EF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0CF5F7041DEE913600E8B4EF /* Frameworks */ = {
+		0C354791217EBA470023C313 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,187 +81,246 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CF5F6DC1DEE913500E8B4EF = {
+		0C35476C217EBA460023C313 = {
 			isa = PBXGroup;
 			children = (
-				0CF5F6E71DEE913600E8B4EF /* Payculator */,
-				0CF5F6FF1DEE913600E8B4EF /* PayculatorTests */,
-				0CF5F70A1DEE913600E8B4EF /* PayculatorUITests */,
-				0CF5F6E61DEE913600E8B4EF /* Products */,
+				0C354777217EBA460023C313 /* Payculator */,
+				0C35478C217EBA470023C313 /* PayculatorTests */,
+				0C354797217EBA470023C313 /* PayculatorUITests */,
+				0C354776217EBA460023C313 /* Products */,
+				836A7C83A42F932B6A9C4F83 /* Pods */,
+				AA16A1D6A8496F0B2D74DFCB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		0CF5F6E61DEE913600E8B4EF /* Products */ = {
+		0C354776217EBA460023C313 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0CF5F6E51DEE913600E8B4EF /* PayCulator.app */,
-				0CF5F6FC1DEE913600E8B4EF /* PayCulatorTests.xctest */,
-				0CF5F7071DEE913600E8B4EF /* PayCulatorUITests.xctest */,
+				0C354775217EBA460023C313 /* Payculator.app */,
+				0C354789217EBA470023C313 /* PayculatorTests.xctest */,
+				0C354794217EBA470023C313 /* PayculatorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0CF5F6E71DEE913600E8B4EF /* Payculator */ = {
+		0C354777217EBA460023C313 /* Payculator */ = {
 			isa = PBXGroup;
 			children = (
-				0CF5F6E81DEE913600E8B4EF /* AppDelegate.swift */,
-				0CF5F6EA1DEE913600E8B4EF /* ViewController.swift */,
-				0C1724C61E209F5900187815 /* TextFieldMaxLengths.swift */,
-				0CF5F6EC1DEE913600E8B4EF /* Main.storyboard */,
-				0CF5F6F21DEE913600E8B4EF /* Assets.xcassets */,
-				0CF5F6F41DEE913600E8B4EF /* LaunchScreen.storyboard */,
-				0CF5F6F71DEE913600E8B4EF /* Info.plist */,
+				0C3547A6217EBA700023C313 /* Controllers */,
+				0C3547A7217EBA7C0023C313 /* Extensions */,
+				0C3547A8217EBA870023C313 /* Models */,
+				0C3547AB217EBAF90023C313 /* Storyboards */,
+				0C3547A9217EBA8E0023C313 /* Supporting Files */,
+				0C3547AA217EBA9D0023C313 /* View Controllers */,
 			);
-			name = Payculator;
-			path = PayCulator;
+			path = Payculator;
 			sourceTree = "<group>";
 		};
-		0CF5F6FF1DEE913600E8B4EF /* PayculatorTests */ = {
+		0C35478C217EBA470023C313 /* PayculatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				0CF5F7001DEE913600E8B4EF /* PayculatorTests.swift */,
-				0CF5F7021DEE913600E8B4EF /* Info.plist */,
+				0C35478D217EBA470023C313 /* PayculatorTests.swift */,
+				0C35478F217EBA470023C313 /* Info.plist */,
 			);
-			name = PayculatorTests;
-			path = PayCulatorTests;
+			path = PayculatorTests;
 			sourceTree = "<group>";
 		};
-		0CF5F70A1DEE913600E8B4EF /* PayculatorUITests */ = {
+		0C354797217EBA470023C313 /* PayculatorUITests */ = {
 			isa = PBXGroup;
 			children = (
-				0CF5F70B1DEE913600E8B4EF /* PayculatorUITests.swift */,
-				0CF5F70D1DEE913600E8B4EF /* Info.plist */,
+				0C354798217EBA470023C313 /* PayculatorUITests.swift */,
+				0C35479A217EBA470023C313 /* Info.plist */,
 			);
-			name = PayculatorUITests;
-			path = PayCulatorUITests;
+			path = PayculatorUITests;
+			sourceTree = "<group>";
+		};
+		0C3547A6217EBA700023C313 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0C354778217EBA460023C313 /* AppDelegate.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0C3547A7217EBA7C0023C313 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0C3547A8217EBA870023C313 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0C3547A9217EBA8E0023C313 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C35477F217EBA470023C313 /* Assets.xcassets */,
+				0C354784217EBA470023C313 /* Info.plist */,
+				0C3547AC217EC1BE0023C313 /* README.md */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C3547AA217EBA9D0023C313 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0C35477A217EBA460023C313 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		0C3547AB217EBAF90023C313 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0C354781217EBA470023C313 /* LaunchScreen.storyboard */,
+				0C35477C217EBA460023C313 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		836A7C83A42F932B6A9C4F83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C04FFDF59F0EAA47DD7D0BF /* Pods-Payculator.debug.xcconfig */,
+				36E5DD17586263973A0B2693 /* Pods-Payculator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA16A1D6A8496F0B2D74DFCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F799C8743544C8EF816C71B /* Pods_Payculator.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0CF5F6E41DEE913500E8B4EF /* PayCulator */ = {
+		0C354774217EBA460023C313 /* Payculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0CF5F7101DEE913600E8B4EF /* Build configuration list for PBXNativeTarget "PayCulator" */;
+			buildConfigurationList = 0C35479D217EBA480023C313 /* Build configuration list for PBXNativeTarget "Payculator" */;
 			buildPhases = (
-				0CF5F6E11DEE913500E8B4EF /* Sources */,
-				0CF5F6E21DEE913500E8B4EF /* Frameworks */,
-				0CF5F6E31DEE913500E8B4EF /* Resources */,
+				6D4F8B071C29E7318B2E4A0B /* [CP] Check Pods Manifest.lock */,
+				0C354771217EBA460023C313 /* Sources */,
+				0C354772217EBA460023C313 /* Frameworks */,
+				0C354773217EBA460023C313 /* Resources */,
+				12D3B9DB5643430D68B4EDDC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PayCulator;
-			productName = PayCulator;
-			productReference = 0CF5F6E51DEE913600E8B4EF /* PayCulator.app */;
+			name = Payculator;
+			productName = Payculator;
+			productReference = 0C354775217EBA460023C313 /* Payculator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0CF5F6FB1DEE913600E8B4EF /* PayCulatorTests */ = {
+		0C354788217EBA470023C313 /* PayculatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0CF5F7131DEE913600E8B4EF /* Build configuration list for PBXNativeTarget "PayCulatorTests" */;
+			buildConfigurationList = 0C3547A0217EBA480023C313 /* Build configuration list for PBXNativeTarget "PayculatorTests" */;
 			buildPhases = (
-				0CF5F6F81DEE913600E8B4EF /* Sources */,
-				0CF5F6F91DEE913600E8B4EF /* Frameworks */,
-				0CF5F6FA1DEE913600E8B4EF /* Resources */,
+				0C354785217EBA470023C313 /* Sources */,
+				0C354786217EBA470023C313 /* Frameworks */,
+				0C354787217EBA470023C313 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0CF5F6FE1DEE913600E8B4EF /* PBXTargetDependency */,
+				0C35478B217EBA470023C313 /* PBXTargetDependency */,
 			);
-			name = PayCulatorTests;
-			productName = PayCulatorTests;
-			productReference = 0CF5F6FC1DEE913600E8B4EF /* PayCulatorTests.xctest */;
+			name = PayculatorTests;
+			productName = PayculatorTests;
+			productReference = 0C354789217EBA470023C313 /* PayculatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0CF5F7061DEE913600E8B4EF /* PayCulatorUITests */ = {
+		0C354793217EBA470023C313 /* PayculatorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0CF5F7161DEE913600E8B4EF /* Build configuration list for PBXNativeTarget "PayCulatorUITests" */;
+			buildConfigurationList = 0C3547A3217EBA480023C313 /* Build configuration list for PBXNativeTarget "PayculatorUITests" */;
 			buildPhases = (
-				0CF5F7031DEE913600E8B4EF /* Sources */,
-				0CF5F7041DEE913600E8B4EF /* Frameworks */,
-				0CF5F7051DEE913600E8B4EF /* Resources */,
+				0C354790217EBA470023C313 /* Sources */,
+				0C354791217EBA470023C313 /* Frameworks */,
+				0C354792217EBA470023C313 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0CF5F7091DEE913600E8B4EF /* PBXTargetDependency */,
+				0C354796217EBA470023C313 /* PBXTargetDependency */,
 			);
-			name = PayCulatorUITests;
-			productName = PayCulatorUITests;
-			productReference = 0CF5F7071DEE913600E8B4EF /* PayCulatorUITests.xctest */;
+			name = PayculatorUITests;
+			productName = PayculatorUITests;
+			productReference = 0C354794217EBA470023C313 /* PayculatorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0CF5F6DD1DEE913500E8B4EF /* Project object */ = {
+		0C35476D217EBA460023C313 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0900;
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = KelReid;
 				TargetAttributes = {
-					0CF5F6E41DEE913500E8B4EF = {
-						CreatedOnToolsVersion = 8.1;
-						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
+					0C354774217EBA460023C313 = {
+						CreatedOnToolsVersion = 10.0;
 					};
-					0CF5F6FB1DEE913600E8B4EF = {
-						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = WC92Z884R6;
-						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 0CF5F6E41DEE913500E8B4EF;
+					0C354788217EBA470023C313 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 0C354774217EBA460023C313;
 					};
-					0CF5F7061DEE913600E8B4EF = {
-						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = WC92Z884R6;
-						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 0CF5F6E41DEE913500E8B4EF;
+					0C354793217EBA470023C313 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 0C354774217EBA460023C313;
 					};
 				};
 			};
-			buildConfigurationList = 0CF5F6E01DEE913500E8B4EF /* Build configuration list for PBXProject "Payculator" */;
-			compatibilityVersion = "Xcode 8.0";
-			developmentRegion = English;
+			buildConfigurationList = 0C354770217EBA460023C313 /* Build configuration list for PBXProject "Payculator" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 0CF5F6DC1DEE913500E8B4EF;
-			productRefGroup = 0CF5F6E61DEE913600E8B4EF /* Products */;
+			mainGroup = 0C35476C217EBA460023C313;
+			productRefGroup = 0C354776217EBA460023C313 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0CF5F6E41DEE913500E8B4EF /* PayCulator */,
-				0CF5F6FB1DEE913600E8B4EF /* PayCulatorTests */,
-				0CF5F7061DEE913600E8B4EF /* PayCulatorUITests */,
+				0C354774217EBA460023C313 /* Payculator */,
+				0C354788217EBA470023C313 /* PayculatorTests */,
+				0C354793217EBA470023C313 /* PayculatorUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0CF5F6E31DEE913500E8B4EF /* Resources */ = {
+		0C354773217EBA460023C313 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CF5F6F61DEE913600E8B4EF /* LaunchScreen.storyboard in Resources */,
-				0CF5F6F31DEE913600E8B4EF /* Assets.xcassets in Resources */,
-				0CF5F6EE1DEE913600E8B4EF /* Main.storyboard in Resources */,
+				0C354783217EBA470023C313 /* LaunchScreen.storyboard in Resources */,
+				0C354780217EBA470023C313 /* Assets.xcassets in Resources */,
+				0C3547AD217EC1BE0023C313 /* README.md in Resources */,
+				0C35477E217EBA460023C313 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0CF5F6FA1DEE913600E8B4EF /* Resources */ = {
+		0C354787217EBA470023C313 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0CF5F7051DEE913600E8B4EF /* Resources */ = {
+		0C354792217EBA470023C313 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -265,61 +329,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12D3B9DB5643430D68B4EDDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Payculator/Pods-Payculator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Sentry/Sentry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sentry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Payculator/Pods-Payculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D4F8B071C29E7318B2E4A0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Payculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		0CF5F6E11DEE913500E8B4EF /* Sources */ = {
+		0C354771217EBA460023C313 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CF5F6EB1DEE913600E8B4EF /* ViewController.swift in Sources */,
-				0CF5F6E91DEE913600E8B4EF /* AppDelegate.swift in Sources */,
-				0C1724C71E209F5900187815 /* TextFieldMaxLengths.swift in Sources */,
+				0C35477B217EBA460023C313 /* ViewController.swift in Sources */,
+				0C354779217EBA460023C313 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0CF5F6F81DEE913600E8B4EF /* Sources */ = {
+		0C354785217EBA470023C313 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CF5F7011DEE913600E8B4EF /* PayculatorTests.swift in Sources */,
+				0C35478E217EBA470023C313 /* PayculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0CF5F7031DEE913600E8B4EF /* Sources */ = {
+		0C354790217EBA470023C313 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CF5F70C1DEE913600E8B4EF /* PayculatorUITests.swift in Sources */,
+				0C354799217EBA470023C313 /* PayculatorUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0CF5F6FE1DEE913600E8B4EF /* PBXTargetDependency */ = {
+		0C35478B217EBA470023C313 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0CF5F6E41DEE913500E8B4EF /* PayCulator */;
-			targetProxy = 0CF5F6FD1DEE913600E8B4EF /* PBXContainerItemProxy */;
+			target = 0C354774217EBA460023C313 /* Payculator */;
+			targetProxy = 0C35478A217EBA470023C313 /* PBXContainerItemProxy */;
 		};
-		0CF5F7091DEE913600E8B4EF /* PBXTargetDependency */ = {
+		0C354796217EBA470023C313 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0CF5F6E41DEE913500E8B4EF /* PayCulator */;
-			targetProxy = 0CF5F7081DEE913600E8B4EF /* PBXContainerItemProxy */;
+			target = 0C354774217EBA460023C313 /* Payculator */;
+			targetProxy = 0C354795217EBA470023C313 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0CF5F6EC1DEE913600E8B4EF /* Main.storyboard */ = {
+		0C35477C217EBA460023C313 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0CF5F6ED1DEE913600E8B4EF /* Base */,
+				0C35477D217EBA460023C313 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		0CF5F6F41DEE913600E8B4EF /* LaunchScreen.storyboard */ = {
+		0C354781217EBA470023C313 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0CF5F6F51DEE913600E8B4EF /* Base */,
+				0C354782217EBA470023C313 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -327,19 +437,22 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0CF5F70E1DEE913600E8B4EF /* Debug */ = {
+		0C35479B217EBA480023C313 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -347,20 +460,21 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -374,29 +488,32 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		0CF5F70F1DEE913600E8B4EF /* Release */ = {
+		0C35479C217EBA480023C313 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -404,20 +521,21 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -425,151 +543,176 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		0CF5F7111DEE913600E8B4EF /* Debug */ = {
+		0C35479E217EBA480023C313 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C04FFDF59F0EAA47DD7D0BF /* Pods-Payculator.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WC92Z884R6;
-				INFOPLIST_FILE = PayCulator/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.KelReid.Payculator;
+				INFOPLIST_FILE = "$(SRCROOT)/Payculator/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kelvinreid.Payculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		0CF5F7121DEE913600E8B4EF /* Release */ = {
+		0C35479F217EBA480023C313 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36E5DD17586263973A0B2693 /* Pods-Payculator.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WC92Z884R6;
-				INFOPLIST_FILE = PayCulator/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.KelReid.Payculator;
+				INFOPLIST_FILE = "$(SRCROOT)/Payculator/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kelvinreid.Payculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		0CF5F7141DEE913600E8B4EF /* Debug */ = {
+		0C3547A1217EBA480023C313 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WC92Z884R6;
-				INFOPLIST_FILE = PayCulatorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.KReid.PayCulatorTests;
+				INFOPLIST_FILE = PayculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kelreid.Payculator.PayculatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayCulator.app/PayCulator";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Payculator.app/Payculator";
 			};
 			name = Debug;
 		};
-		0CF5F7151DEE913600E8B4EF /* Release */ = {
+		0C3547A2217EBA480023C313 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WC92Z884R6;
-				INFOPLIST_FILE = PayCulatorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.KReid.PayCulatorTests;
+				INFOPLIST_FILE = PayculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kelreid.Payculator.PayculatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayCulator.app/PayCulator";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Payculator.app/Payculator";
 			};
 			name = Release;
 		};
-		0CF5F7171DEE913600E8B4EF /* Debug */ = {
+		0C3547A4217EBA480023C313 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WC92Z884R6;
-				INFOPLIST_FILE = PayCulatorUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.KReid.PayCulatorUITests;
+				INFOPLIST_FILE = PayculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kelreid.Payculator.PayculatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = PayCulator;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Payculator;
 			};
 			name = Debug;
 		};
-		0CF5F7181DEE913600E8B4EF /* Release */ = {
+		0C3547A5217EBA480023C313 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WC92Z884R6;
-				INFOPLIST_FILE = PayCulatorUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.KReid.PayCulatorUITests;
+				INFOPLIST_FILE = PayculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kelreid.Payculator.PayculatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_TARGET_NAME = PayCulator;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Payculator;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0CF5F6E01DEE913500E8B4EF /* Build configuration list for PBXProject "Payculator" */ = {
+		0C354770217EBA460023C313 /* Build configuration list for PBXProject "Payculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0CF5F70E1DEE913600E8B4EF /* Debug */,
-				0CF5F70F1DEE913600E8B4EF /* Release */,
+				0C35479B217EBA480023C313 /* Debug */,
+				0C35479C217EBA480023C313 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0CF5F7101DEE913600E8B4EF /* Build configuration list for PBXNativeTarget "PayCulator" */ = {
+		0C35479D217EBA480023C313 /* Build configuration list for PBXNativeTarget "Payculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0CF5F7111DEE913600E8B4EF /* Debug */,
-				0CF5F7121DEE913600E8B4EF /* Release */,
+				0C35479E217EBA480023C313 /* Debug */,
+				0C35479F217EBA480023C313 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0CF5F7131DEE913600E8B4EF /* Build configuration list for PBXNativeTarget "PayCulatorTests" */ = {
+		0C3547A0217EBA480023C313 /* Build configuration list for PBXNativeTarget "PayculatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0CF5F7141DEE913600E8B4EF /* Debug */,
-				0CF5F7151DEE913600E8B4EF /* Release */,
+				0C3547A1217EBA480023C313 /* Debug */,
+				0C3547A2217EBA480023C313 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0CF5F7161DEE913600E8B4EF /* Build configuration list for PBXNativeTarget "PayCulatorUITests" */ = {
+		0C3547A3217EBA480023C313 /* Build configuration list for PBXNativeTarget "PayculatorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0CF5F7171DEE913600E8B4EF /* Debug */,
-				0CF5F7181DEE913600E8B4EF /* Release */,
+				0C3547A4217EBA480023C313 /* Debug */,
+				0C3547A5217EBA480023C313 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0CF5F6DD1DEE913500E8B4EF /* Project object */;
+	rootObject = 0C35476D217EBA460023C313 /* Project object */;
 }
