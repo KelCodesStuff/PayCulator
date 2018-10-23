@@ -87,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				0C354777217EBA460023C313 /* Payculator */,
+				0C3547B2217ED5F30023C313 /* Readme.md */,
 				0C35478C217EBA470023C313 /* PayculatorTests */,
 				0C354797217EBA470023C313 /* PayculatorUITests */,
 				0C354776217EBA460023C313 /* Products */,
@@ -164,7 +165,6 @@
 				0C35477F217EBA470023C313 /* Assets.xcassets */,
 				0C354784217EBA470023C313 /* Info.plist */,
 				0C3547B4217ED63D0023C313 /* TechnicalDoc.md */,
-				0C3547B2217ED5F30023C313 /* Readme.md */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
