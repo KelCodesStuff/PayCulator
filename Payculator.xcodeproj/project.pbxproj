@@ -14,7 +14,8 @@
 		0C354783217EBA470023C313 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C354781217EBA470023C313 /* LaunchScreen.storyboard */; };
 		0C35478E217EBA470023C313 /* PayculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C35478D217EBA470023C313 /* PayculatorTests.swift */; };
 		0C354799217EBA470023C313 /* PayculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C354798217EBA470023C313 /* PayculatorUITests.swift */; };
-		0C3547AD217EC1BE0023C313 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0C3547AC217EC1BE0023C313 /* README.md */; };
+		0C3547B3217ED5F30023C313 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 0C3547B2217ED5F30023C313 /* Readme.md */; };
+		0C3547B5217ED63D0023C313 /* TechnicalDoc.md in Resources */ = {isa = PBXBuildFile; fileRef = 0C3547B4217ED63D0023C313 /* TechnicalDoc.md */; };
 		F71AE75605EA78D3F2732A9B /* Pods_Payculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F799C8743544C8EF816C71B /* Pods_Payculator.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +50,8 @@
 		0C354794217EBA470023C313 /* PayculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C354798217EBA470023C313 /* PayculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayculatorUITests.swift; sourceTree = "<group>"; };
 		0C35479A217EBA470023C313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C3547AC217EC1BE0023C313 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0C3547B2217ED5F30023C313 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		0C3547B4217ED63D0023C313 /* TechnicalDoc.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = TechnicalDoc.md; sourceTree = "<group>"; };
 		36E5DD17586263973A0B2693 /* Pods-Payculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Payculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Payculator/Pods-Payculator.release.xcconfig"; sourceTree = "<group>"; };
 		3F799C8743544C8EF816C71B /* Pods_Payculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Payculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C04FFDF59F0EAA47DD7D0BF /* Pods-Payculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Payculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Payculator/Pods-Payculator.debug.xcconfig"; sourceTree = "<group>"; };
@@ -161,7 +163,8 @@
 			children = (
 				0C35477F217EBA470023C313 /* Assets.xcassets */,
 				0C354784217EBA470023C313 /* Info.plist */,
-				0C3547AC217EC1BE0023C313 /* README.md */,
+				0C3547B4217ED63D0023C313 /* TechnicalDoc.md */,
+				0C3547B2217ED5F30023C313 /* Readme.md */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -306,9 +309,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C3547B5217ED63D0023C313 /* TechnicalDoc.md in Resources */,
+				0C3547B3217ED5F30023C313 /* Readme.md in Resources */,
 				0C354783217EBA470023C313 /* LaunchScreen.storyboard in Resources */,
 				0C354780217EBA470023C313 /* Assets.xcassets in Resources */,
-				0C3547AD217EC1BE0023C313 /* README.md in Resources */,
 				0C35477E217EBA460023C313 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
