@@ -2,4 +2,4 @@ language: objective-c
 osx_image: xcode10
 xcode_project: Payculator.xcodeproj
 xcode_scheme: Payculator
-xcode_destination: platform=iOS Simulator,OS=11,name=iPhone X
+xcode_destination: platform=iOS Simulator, OS=11.2, name=iPhone X
