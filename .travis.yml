@@ -1,5 +1,5 @@
 language: objective-c
 osx_image: xcode10
 xcode_project: Payculator.xcodeproj
-xcode_scheme: PayculatorTests
+xcode_scheme: Payculator
 xcode_destination: platform=iOS Simulator,OS=11,name=iPhone X
