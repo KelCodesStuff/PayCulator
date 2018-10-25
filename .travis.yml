@@ -1,6 +1,7 @@
 language: objective-c
 osx_image: xcode9.2
 
-- xcodebuild clean test -project Payculator.xcodeproj -scheme Payculator -destination "platform=iOS Simulator,name=iPhone 8,OS=11.2" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO -quiet
+script:
+    - xcodebuild clean test -project Payculator.xcodeproj -scheme Payculator -destination "platform=iOS Simulator,name=iPhone 8,OS=11.2" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO -quiet
 
 after_success:
