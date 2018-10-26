@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0C354774217EBA460023C313"
-               BuildableName = "Payculator.app"
-               BlueprintName = "Payculator"
-               ReferencedContainer = "container:Payculator.xcodeproj">
+               BlueprintIdentifier = "DDBF740CEC4572F3020FEF655EC51998"
+               BuildableName = "Pods_Payculator.framework"
+               BlueprintName = "Pods-Payculator"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,24 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DDBF740CEC4572F3020FEF655EC51998"
-               BuildableName = "Pods_Payculator.framework"
-               BlueprintName = "Pods-Payculator"
+               BlueprintIdentifier = "59A8871C0C106AAEB314BCFFBB78ACAF"
+               BuildableName = "Sentry.framework"
+               BlueprintName = "Sentry"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0C354774217EBA460023C313"
+               BuildableName = "Payculator.app"
+               BlueprintName = "Payculator"
+               ReferencedContainer = "container:Payculator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
