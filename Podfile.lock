@@ -1,24 +1,21 @@
 PODS:
-  - Sentry (4.1.0):
-    - Sentry/Core (= 4.1.0)
-  - Sentry/Core (4.1.0)
+  - Crashlytics (3.11.0):
+    - Fabric (~> 1.8.0)
+  - Fabric (1.8.0)
 
 DEPENDENCIES:
-  - Sentry (from `https://github.com/getsentry/sentry-cocoa.git`, tag `4.1.0`)
+  - Crashlytics
+  - Fabric
 
-EXTERNAL SOURCES:
-  Sentry:
-    :git: https://github.com/getsentry/sentry-cocoa.git
-    :tag: 4.1.0
-
-CHECKOUT OPTIONS:
-  Sentry:
-    :git: https://github.com/getsentry/sentry-cocoa.git
-    :tag: 4.1.0
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Crashlytics
+    - Fabric
 
 SPEC CHECKSUMS:
-  Sentry: 44b85e768f435ede4d12ea279af588ff275c3939
+  Crashlytics: 1448070c1d2731ab71ea7c3faf84ac0f69657287
+  Fabric: 4ac1cdfef3004ccd83ce0959b91eda8a6e37df72
 
-PODFILE CHECKSUM: ffda5a10d6f7a100471181e15fd02dafd8c429bf
+PODFILE CHECKSUM: 57fe680c7abe983a489a03c22f38dd39f511df66
 
 COCOAPODS: 1.5.3

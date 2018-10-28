@@ -7,7 +7,8 @@
 //
 
 import UIKit
-import Sentry
+import Fabric
+import Crashlytics
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,13 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        // Create a Sentry client and start crash handler
-        do {
-            Client.shared = try Client(dsn: "https://4898a959d01644b089a515f8595569af@sentry.io/1304928")
-            try Client.shared?.startCrashHandler()
-        } catch let error {
-            print("\(error)")
-        }
+        Fabric.with([Crashlytics.self])
+        Fabric.sharedSDK().debug = true
         
         return true
     }

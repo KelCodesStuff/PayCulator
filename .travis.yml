@@ -8,3 +8,9 @@ script:
     - xcodebuild clean test -workspace Payculator.xcworkspace -scheme Payculator -destination "platform=iOS Simulator,name=iPhone 8,OS=11.2" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
 
 after_success:
+
+# safelist
+branches:
+  only:
+  - master
+  - Development

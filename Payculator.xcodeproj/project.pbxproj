@@ -214,7 +214,7 @@
 				0C354771217EBA460023C313 /* Sources */,
 				0C354772217EBA460023C313 /* Frameworks */,
 				0C354773217EBA460023C313 /* Resources */,
-				12D3B9DB5643430D68B4EDDC /* [CP] Embed Pods Frameworks */,
+				0CB16FE921857024001FC30D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -269,7 +269,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
-				ORGANIZATIONNAME = KelReid;
+				ORGANIZATIONNAME = "Kelvin Reid";
 				TargetAttributes = {
 					0C354774217EBA460023C313 = {
 						CreatedOnToolsVersion = 10.0;
@@ -334,7 +334,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		12D3B9DB5643430D68B4EDDC /* [CP] Embed Pods Frameworks */ = {
+		0CB16FE921857024001FC30D /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -342,19 +342,15 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Payculator/Pods-Payculator-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Sentry/Sentry.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
 			);
-			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sentry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Payculator/Pods-Payculator-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" b2119a8506f52ee8c62897003d503f2535a9e27b df723dd353e77a1492670f3d5ee102c953bec11451d03fd2ae1b19b2fb7d3b31\n";
 		};
 		6D4F8B071C29E7318B2E4A0B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -475,7 +471,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
