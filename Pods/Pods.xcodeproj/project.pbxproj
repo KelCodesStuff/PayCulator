@@ -7,39 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55BA9CF435A7798D545EAA085767685B /* Pods-Payculator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF8338F2A72D9D7AAD1F4BC148B84697 /* Pods-Payculator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D2C96DDE127606CE123B46757BF4D03 /* Pods-PayculatorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC48846BFB909B4D609B244809D4EE64 /* Pods-PayculatorUITests-dummy.m */; };
+		55BA9CF435A7798D545EAA085767685B /* Pods-Payculator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24FACAC00BFD042FEE972B10996A7D8D /* Pods-Payculator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D17C38A80BCB6B30250CCA94E05B45D /* Pods-PayculatorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 287F6B4A7B93847B1A9A40C77BD0DBF5 /* Pods-PayculatorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74E134329B828C4D212990986D539E4C /* Pods-PayculatorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 857A015FFF2E03ACCDE59199715D29AB /* Pods-PayculatorTests-dummy.m */; };
 		799E6909957DBD8FF6E6C776FD706FC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		B1BAAEEA7B67E832C38E0D682CB18E56 /* Pods-Payculator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BE586DF0F04D04381933588CB89F81 /* Pods-Payculator-dummy.m */; };
+		B1BAAEEA7B67E832C38E0D682CB18E56 /* Pods-Payculator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B672793DA0B0D7F1BF606F995C4D294 /* Pods-Payculator-dummy.m */; };
+		BA1662BCFE7D8C77FDC1F38B5BD482D7 /* Pods-PayculatorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBBF3F443F94BFFD193CC60226F0453 /* Pods-PayculatorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6345D20D6DD6471665335A7D352154F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		E48F56543EBF9F916171E19B8A80DAD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		057833037A5E25739005513E8E200213 /* Pods-Payculator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Payculator-acknowledgements.plist"; sourceTree = "<group>"; };
+		00228509232EF32FE411A5891BBFCF7B /* Pods-Payculator-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Payculator-resources.sh"; sourceTree = "<group>"; };
+		09A9F15B07FCB7564E8A23B4DB64F6AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DBBF3F443F94BFFD193CC60226F0453 /* Pods-PayculatorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PayculatorUITests-umbrella.h"; sourceTree = "<group>"; };
+		13E9562AE94F313F2512EF0040EEF437 /* Pods-Payculator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Payculator-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A938F00A5FE8E4C94A2CA8F18677D47 /* Pods-Payculator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Payculator.modulemap"; sourceTree = "<group>"; };
 		200C81134ACADBF4B01AF7F1C51DE9EC /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
-		21194AAC3A3871EF2D182D8336B7A696 /* Pods-Payculator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Payculator-acknowledgements.markdown"; sourceTree = "<group>"; };
+		24FACAC00BFD042FEE972B10996A7D8D /* Pods-Payculator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Payculator-umbrella.h"; sourceTree = "<group>"; };
+		287F6B4A7B93847B1A9A40C77BD0DBF5 /* Pods-PayculatorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PayculatorTests-umbrella.h"; sourceTree = "<group>"; };
 		29DE526E5B1D3B37719460B12B391B91 /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
-		4888EAF3426A2417309EA80D98B964CA /* Pods_Payculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Payculator.framework; path = "Pods-Payculator.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		48A611C2F03502C888EB820733749853 /* Pods-Payculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Payculator.release.xcconfig"; sourceTree = "<group>"; };
 		494C290BDBEAED23BA5743A3CE2FA0D1 /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
+		4E6BDE9EF08BB3842BA11655B3907AB5 /* Pods-Payculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Payculator.release.xcconfig"; sourceTree = "<group>"; };
+		553B8947C4C8EBB50E09C78BA31C4071 /* Pods-PayculatorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PayculatorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5B0AC4555A08701A9F1760172610E0AF /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
-		5F0BFCF0B1FC5A4E6BD1F131BB584C97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5FD34040BE7EE2725859F8CCD6062630 /* Pods-Payculator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Payculator.modulemap"; sourceTree = "<group>"; };
-		7C2F85E95D1BD512204E2C4C17B481E7 /* Pods-Payculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Payculator.debug.xcconfig"; sourceTree = "<group>"; };
+		5D766891043B905CF20115BA427D8B7B /* Pods_Payculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Payculator.framework; path = "Pods-Payculator.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB2C1BE7DFC4D9DDE8AEBE3BB4B299B /* Pods-PayculatorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PayculatorTests.modulemap"; sourceTree = "<group>"; };
+		6F10815A4A9D8246E7A3BF4A9B3805DC /* Pods-Payculator-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Payculator-frameworks.sh"; sourceTree = "<group>"; };
+		77997C5ACB72E3F3C5184BB49E997C75 /* Pods-PayculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayculatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		79676CA967489BE8F2A436B3F14EC685 /* Pods-PayculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7B94466FA7C73BA66A3AA22C492ECA96 /* Pods_PayculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PayculatorUITests.framework; path = "Pods-PayculatorUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82981FB005A4ED4C556297735FD4ACED /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
 		856A7EF81F93DD33C78FA7140067110C /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
+		857A015FFF2E03ACCDE59199715D29AB /* Pods-PayculatorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PayculatorTests-dummy.m"; sourceTree = "<group>"; };
+		8907626503AF11B481D276D006DC9E1E /* Pods-PayculatorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PayculatorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B672793DA0B0D7F1BF606F995C4D294 /* Pods-Payculator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Payculator-dummy.m"; sourceTree = "<group>"; };
 		8DB331D62E03B90D571016097AB0A7E0 /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
-		8F64E7397975CDDFA11AE962C7DCCD0C /* Pods-Payculator-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Payculator-frameworks.sh"; sourceTree = "<group>"; };
 		92972CC1C216B42A9AB4B6EABB27FC16 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96512AC1006D5BC3CE88FE24EBF8BB6A /* Pods_PayculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PayculatorTests.framework; path = "Pods-PayculatorTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A61E08527EFC3DBEDD4BFA0B5C45104C /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
-		D6BE586DF0F04D04381933588CB89F81 /* Pods-Payculator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Payculator-dummy.m"; sourceTree = "<group>"; };
+		AC65B4A1D9CBAA51FDDBAEC913274D75 /* Pods-PayculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BCB66F0F926D83FBDC041C3562E1E7D7 /* Pods-Payculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Payculator.debug.xcconfig"; sourceTree = "<group>"; };
+		C7F3B91F6A77D66FB5D1702237B194D6 /* Pods-PayculatorTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PayculatorTests-frameworks.sh"; sourceTree = "<group>"; };
+		D2D871A4262034534ED6739E2C34BFEE /* Pods-PayculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PayculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D445FB85A341E599AD75DE937D198B4D /* Pods-PayculatorTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PayculatorTests-resources.sh"; sourceTree = "<group>"; };
+		D838D238D8AC3D1DFEB80017AC039387 /* Pods-PayculatorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PayculatorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DBA48C54AB315A7317F3DD387EF04883 /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
-		DF8338F2A72D9D7AAD1F4BC148B84697 /* Pods-Payculator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Payculator-umbrella.h"; sourceTree = "<group>"; };
-		E55CF7CA09A9471D03D04AF7CD7A6283 /* Pods-Payculator-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Payculator-resources.sh"; sourceTree = "<group>"; };
+		DBF23B8380A7362BFB2B8117CDAB3F65 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC978EDD3AC83EC96399AED137E62C7D /* Pods-PayculatorUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PayculatorUITests-resources.sh"; sourceTree = "<group>"; };
 		EAC88243AB9F702F3015F7068842116A /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
+		EAD5FC0B9E780B9D52CD2A1B35903C9B /* Pods-PayculatorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PayculatorUITests.modulemap"; sourceTree = "<group>"; };
+		EBD6D0AB09C11599E0C07D842D572190 /* Pods-PayculatorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PayculatorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F531A791142528BAF12255FCDF6CBDF3 /* Pods-PayculatorUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PayculatorUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F5F5297A65AEF09E071E9094A485CF53 /* Pods-Payculator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Payculator-acknowledgements.plist"; sourceTree = "<group>"; };
+		FAD789C6033744F08D23E82ECCEF7E2C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC48846BFB909B4D609B244809D4EE64 /* Pods-PayculatorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PayculatorUITests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		193FB303E3AF049F2399301789F168C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E48F56543EBF9F916171E19B8A80DAD1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AC4F48D4E55209E316E42FD156E1F5EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -48,9 +84,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C777C9039D0AE729560B1EB0ED690FA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6345D20D6DD6471665335A7D352154F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		198172D76A3F506A8F519E5BDB1FE0CF /* Pods-Payculator */ = {
+			isa = PBXGroup;
+			children = (
+				FAD789C6033744F08D23E82ECCEF7E2C /* Info.plist */,
+				1A938F00A5FE8E4C94A2CA8F18677D47 /* Pods-Payculator.modulemap */,
+				13E9562AE94F313F2512EF0040EEF437 /* Pods-Payculator-acknowledgements.markdown */,
+				F5F5297A65AEF09E071E9094A485CF53 /* Pods-Payculator-acknowledgements.plist */,
+				8B672793DA0B0D7F1BF606F995C4D294 /* Pods-Payculator-dummy.m */,
+				6F10815A4A9D8246E7A3BF4A9B3805DC /* Pods-Payculator-frameworks.sh */,
+				00228509232EF32FE411A5891BBFCF7B /* Pods-Payculator-resources.sh */,
+				24FACAC00BFD042FEE972B10996A7D8D /* Pods-Payculator-umbrella.h */,
+				BCB66F0F926D83FBDC041C3562E1E7D7 /* Pods-Payculator.debug.xcconfig */,
+				4E6BDE9EF08BB3842BA11655B3907AB5 /* Pods-Payculator.release.xcconfig */,
+			);
+			name = "Pods-Payculator";
+			path = "Target Support Files/Pods-Payculator";
+			sourceTree = "<group>";
+		};
 		1DECF7299F0875E9BCB9492390207331 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,22 +146,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		394D7668E2429C8F255470CEFBB0DA99 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D0F45025367B5D7A2A632942296F99C5 /* Pods-Payculator */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		5302DC8F9F980AB7CA148F2D1841039C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4888EAF3426A2417309EA80D98B964CA /* Pods_Payculator.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,14 +154,52 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		64765C44AC8105DA86B20CC92038097D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D766891043B905CF20115BA427D8B7B /* Pods_Payculator.framework */,
+				96512AC1006D5BC3CE88FE24EBF8BB6A /* Pods_PayculatorTests.framework */,
+				7B94466FA7C73BA66A3AA22C492ECA96 /* Pods_PayculatorUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6566D1B775CF25696870546DE8E48F7A /* Pods-PayculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09A9F15B07FCB7564E8A23B4DB64F6AB /* Info.plist */,
+				EAD5FC0B9E780B9D52CD2A1B35903C9B /* Pods-PayculatorUITests.modulemap */,
+				553B8947C4C8EBB50E09C78BA31C4071 /* Pods-PayculatorUITests-acknowledgements.markdown */,
+				D838D238D8AC3D1DFEB80017AC039387 /* Pods-PayculatorUITests-acknowledgements.plist */,
+				FC48846BFB909B4D609B244809D4EE64 /* Pods-PayculatorUITests-dummy.m */,
+				F531A791142528BAF12255FCDF6CBDF3 /* Pods-PayculatorUITests-frameworks.sh */,
+				DC978EDD3AC83EC96399AED137E62C7D /* Pods-PayculatorUITests-resources.sh */,
+				0DBBF3F443F94BFFD193CC60226F0453 /* Pods-PayculatorUITests-umbrella.h */,
+				AC65B4A1D9CBAA51FDDBAEC913274D75 /* Pods-PayculatorUITests.debug.xcconfig */,
+				79676CA967489BE8F2A436B3F14EC685 /* Pods-PayculatorUITests.release.xcconfig */,
+			);
+			name = "Pods-PayculatorUITests";
+			path = "Target Support Files/Pods-PayculatorUITests";
+			sourceTree = "<group>";
+		};
+		6BC32256A1B06AC5E0698765AA0F2DA4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				198172D76A3F506A8F519E5BDB1FE0CF /* Pods-Payculator */,
+				F9A02DCA1ED879781185EEBD91358424 /* Pods-PayculatorTests */,
+				6566D1B775CF25696870546DE8E48F7A /* Pods-PayculatorUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				1DECF7299F0875E9BCB9492390207331 /* Pods */,
-				5302DC8F9F980AB7CA148F2D1841039C /* Products */,
-				394D7668E2429C8F255470CEFBB0DA99 /* Targets Support Files */,
+				64765C44AC8105DA86B20CC92038097D /* Products */,
+				6BC32256A1B06AC5E0698765AA0F2DA4 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,24 +209,6 @@
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D0F45025367B5D7A2A632942296F99C5 /* Pods-Payculator */ = {
-			isa = PBXGroup;
-			children = (
-				5F0BFCF0B1FC5A4E6BD1F131BB584C97 /* Info.plist */,
-				5FD34040BE7EE2725859F8CCD6062630 /* Pods-Payculator.modulemap */,
-				21194AAC3A3871EF2D182D8336B7A696 /* Pods-Payculator-acknowledgements.markdown */,
-				057833037A5E25739005513E8E200213 /* Pods-Payculator-acknowledgements.plist */,
-				D6BE586DF0F04D04381933588CB89F81 /* Pods-Payculator-dummy.m */,
-				8F64E7397975CDDFA11AE962C7DCCD0C /* Pods-Payculator-frameworks.sh */,
-				E55CF7CA09A9471D03D04AF7CD7A6283 /* Pods-Payculator-resources.sh */,
-				DF8338F2A72D9D7AAD1F4BC148B84697 /* Pods-Payculator-umbrella.h */,
-				7C2F85E95D1BD512204E2C4C17B481E7 /* Pods-Payculator.debug.xcconfig */,
-				48A611C2F03502C888EB820733749853 /* Pods-Payculator.release.xcconfig */,
-			);
-			name = "Pods-Payculator";
-			path = "Target Support Files/Pods-Payculator";
 			sourceTree = "<group>";
 		};
 		D479A0301687E2A8F6F67D392B8551D2 /* Fabric */ = {
@@ -164,9 +230,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F9A02DCA1ED879781185EEBD91358424 /* Pods-PayculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBF23B8380A7362BFB2B8117CDAB3F65 /* Info.plist */,
+				5FB2C1BE7DFC4D9DDE8AEBE3BB4B299B /* Pods-PayculatorTests.modulemap */,
+				EBD6D0AB09C11599E0C07D842D572190 /* Pods-PayculatorTests-acknowledgements.markdown */,
+				8907626503AF11B481D276D006DC9E1E /* Pods-PayculatorTests-acknowledgements.plist */,
+				857A015FFF2E03ACCDE59199715D29AB /* Pods-PayculatorTests-dummy.m */,
+				C7F3B91F6A77D66FB5D1702237B194D6 /* Pods-PayculatorTests-frameworks.sh */,
+				D445FB85A341E599AD75DE937D198B4D /* Pods-PayculatorTests-resources.sh */,
+				287F6B4A7B93847B1A9A40C77BD0DBF5 /* Pods-PayculatorTests-umbrella.h */,
+				D2D871A4262034534ED6739E2C34BFEE /* Pods-PayculatorTests.debug.xcconfig */,
+				77997C5ACB72E3F3C5184BB49E997C75 /* Pods-PayculatorTests.release.xcconfig */,
+			);
+			name = "Pods-PayculatorTests";
+			path = "Target Support Files/Pods-PayculatorTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		5BA65754145835E8C4220F94CFE5B8C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D17C38A80BCB6B30250CCA94E05B45D /* Pods-PayculatorTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C1D480068A858B86D0C7C00A0427F303 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -175,9 +267,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E76ADA8235182AF0552A0733C8E765F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1662BCFE7D8C77FDC1F38B5BD482D7 /* Pods-PayculatorUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2E1D5DFCD560D10CC0104838C2E3DD75 /* Pods-PayculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8EB3F3565D86B3F91C175520A22BD29 /* Build configuration list for PBXNativeTarget "Pods-PayculatorUITests" */;
+			buildPhases = (
+				E76ADA8235182AF0552A0733C8E765F2 /* Headers */,
+				A61D799572F7A562336DE7D0E923C5FA /* Sources */,
+				193FB303E3AF049F2399301789F168C8 /* Frameworks */,
+				E81F9BB8FA7614D45DCDBB78CB737A2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PayculatorUITests";
+			productName = "Pods-PayculatorUITests";
+			productReference = 7B94466FA7C73BA66A3AA22C492ECA96 /* Pods_PayculatorUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		522A191F64FFB2C486675EAE7EA8EE41 /* Pods-Payculator */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80EF897DC3103D03A26EC6D004482DF9 /* Build configuration list for PBXNativeTarget "Pods-Payculator" */;
@@ -193,7 +311,25 @@
 			);
 			name = "Pods-Payculator";
 			productName = "Pods-Payculator";
-			productReference = 4888EAF3426A2417309EA80D98B964CA /* Pods_Payculator.framework */;
+			productReference = 5D766891043B905CF20115BA427D8B7B /* Pods_Payculator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF1BA75570C0E68F282EF8CCFBBE6065 /* Pods-PayculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EDB8148F40C865AA0DC7453A4E303CF /* Build configuration list for PBXNativeTarget "Pods-PayculatorTests" */;
+			buildPhases = (
+				5BA65754145835E8C4220F94CFE5B8C3 /* Headers */,
+				C37D86A293A89418AE56EF32CBFB7C2E /* Sources */,
+				C777C9039D0AE729560B1EB0ED690FA0 /* Frameworks */,
+				5F70D0DD682980C268E2C321C2128A66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PayculatorTests";
+			productName = "Pods-PayculatorTests";
+			productReference = 96512AC1006D5BC3CE88FE24EBF8BB6A /* Pods_PayculatorTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -213,17 +349,33 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 5302DC8F9F980AB7CA148F2D1841039C /* Products */;
+			productRefGroup = 64765C44AC8105DA86B20CC92038097D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				522A191F64FFB2C486675EAE7EA8EE41 /* Pods-Payculator */,
+				CF1BA75570C0E68F282EF8CCFBBE6065 /* Pods-PayculatorTests */,
+				2E1D5DFCD560D10CC0104838C2E3DD75 /* Pods-PayculatorUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1398984239294A01243641C091511389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F70D0DD682980C268E2C321C2128A66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81F9BB8FA7614D45DCDBB78CB737A2E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -241,12 +393,106 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A61D799572F7A562336DE7D0E923C5FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2C96DDE127606CE123B46757BF4D03 /* Pods-PayculatorUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37D86A293A89418AE56EF32CBFB7C2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E134329B828C4D212990986D539E4C /* Pods-PayculatorTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		16034EF2D8A25DFB58459343CF93C8EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77997C5ACB72E3F3C5184BB49E997C75 /* Pods-PayculatorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayculatorTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayculatorTests/Pods-PayculatorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1DC197176ED4172B849AF07D2A6AB45A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79676CA967489BE8F2A436B3F14EC685 /* Pods-PayculatorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayculatorUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayculatorUITests/Pods-PayculatorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		709A6AA8DC7284B4DB59EBA3219015EB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C2F85E95D1BD512204E2C4C17B481E7 /* Pods-Payculator.debug.xcconfig */;
+			baseConfigurationReference = BCB66F0F926D83FBDC041C3562E1E7D7 /* Pods-Payculator.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -269,6 +515,44 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Payculator/Pods-Payculator.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7CE011A8B3904D845EF676802871B116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D871A4262034534ED6739E2C34BFEE /* Pods-PayculatorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayculatorTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayculatorTests/Pods-PayculatorTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -407,7 +691,7 @@
 		};
 		B89BE164D93BDBEC348253691AAEC66A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48A611C2F03502C888EB820733749853 /* Pods-Payculator.release.xcconfig */;
+			baseConfigurationReference = 4E6BDE9EF08BB3842BA11655B3907AB5 /* Pods-Payculator.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -444,6 +728,44 @@
 			};
 			name = Release;
 		};
+		BDA59D2D81407CC59799AA13E223BA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC65B4A1D9CBAA51FDDBAEC913274D75 /* Pods-PayculatorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PayculatorUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PayculatorUITests/Pods-PayculatorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -461,6 +783,24 @@
 			buildConfigurations = (
 				709A6AA8DC7284B4DB59EBA3219015EB /* Debug */,
 				B89BE164D93BDBEC348253691AAEC66A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EDB8148F40C865AA0DC7453A4E303CF /* Build configuration list for PBXNativeTarget "Pods-PayculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CE011A8B3904D845EF676802871B116 /* Debug */,
+				16034EF2D8A25DFB58459343CF93C8EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8EB3F3565D86B3F91C175520A22BD29 /* Build configuration list for PBXNativeTarget "Pods-PayculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA59D2D81407CC59799AA13E223BA9F /* Debug */,
+				1DC197176ED4172B849AF07D2A6AB45A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -16,6 +16,8 @@
 		0C354799217EBA470023C313 /* PayculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C354798217EBA470023C313 /* PayculatorUITests.swift */; };
 		0C3547B3217ED5F30023C313 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 0C3547B2217ED5F30023C313 /* Readme.md */; };
 		0C3547B5217ED63D0023C313 /* TechnicalDoc.md in Resources */ = {isa = PBXBuildFile; fileRef = 0C3547B4217ED63D0023C313 /* TechnicalDoc.md */; };
+		64DF88B300230FC544F1461D /* Pods_PayculatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9299D92ECF8097974DC9D2C7 /* Pods_PayculatorUITests.framework */; };
+		756BDE989A2C775AD3008959 /* Pods_PayculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAB6417E3ED4EE09E3034F1 /* Pods_PayculatorTests.framework */; };
 		F71AE75605EA78D3F2732A9B /* Pods_Payculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F799C8743544C8EF816C71B /* Pods_Payculator.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,9 +54,15 @@
 		0C35479A217EBA470023C313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C3547B2217ED5F30023C313 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		0C3547B4217ED63D0023C313 /* TechnicalDoc.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = TechnicalDoc.md; sourceTree = "<group>"; };
+		1AAB6417E3ED4EE09E3034F1 /* Pods_PayculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayculatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E5DD17586263973A0B2693 /* Pods-Payculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Payculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Payculator/Pods-Payculator.release.xcconfig"; sourceTree = "<group>"; };
 		3F799C8743544C8EF816C71B /* Pods_Payculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Payculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E07E8B4F92853DB6FA2404 /* Pods-PayculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayculatorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayculatorUITests/Pods-PayculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		73257D0BCE1DF503F098740A /* Pods-PayculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayculatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayculatorTests/Pods-PayculatorTests.release.xcconfig"; sourceTree = "<group>"; };
 		8C04FFDF59F0EAA47DD7D0BF /* Pods-Payculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Payculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Payculator/Pods-Payculator.debug.xcconfig"; sourceTree = "<group>"; };
+		9299D92ECF8097974DC9D2C7 /* Pods_PayculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayculatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4DCF8FF9CCD00745CC1B95 /* Pods-PayculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayculatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayculatorTests/Pods-PayculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7AF01235256EEEE6EE12241 /* Pods-PayculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayculatorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayculatorUITests/Pods-PayculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				756BDE989A2C775AD3008959 /* Pods_PayculatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64DF88B300230FC544F1461D /* Pods_PayculatorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +201,10 @@
 			children = (
 				8C04FFDF59F0EAA47DD7D0BF /* Pods-Payculator.debug.xcconfig */,
 				36E5DD17586263973A0B2693 /* Pods-Payculator.release.xcconfig */,
+				AE4DCF8FF9CCD00745CC1B95 /* Pods-PayculatorTests.debug.xcconfig */,
+				73257D0BCE1DF503F098740A /* Pods-PayculatorTests.release.xcconfig */,
+				59E07E8B4F92853DB6FA2404 /* Pods-PayculatorUITests.debug.xcconfig */,
+				E7AF01235256EEEE6EE12241 /* Pods-PayculatorUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -199,6 +213,8 @@
 			isa = PBXGroup;
 			children = (
 				3F799C8743544C8EF816C71B /* Pods_Payculator.framework */,
+				1AAB6417E3ED4EE09E3034F1 /* Pods_PayculatorTests.framework */,
+				9299D92ECF8097974DC9D2C7 /* Pods_PayculatorUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -229,6 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C3547A0217EBA480023C313 /* Build configuration list for PBXNativeTarget "PayculatorTests" */;
 			buildPhases = (
+				AE544C24BDC5A70DB80C14D6 /* [CP] Check Pods Manifest.lock */,
 				0C354785217EBA470023C313 /* Sources */,
 				0C354786217EBA470023C313 /* Frameworks */,
 				0C354787217EBA470023C313 /* Resources */,
@@ -247,6 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C3547A3217EBA480023C313 /* Build configuration list for PBXNativeTarget "PayculatorUITests" */;
 			buildPhases = (
+				08A64C2A3AD4A96EEF742041 /* [CP] Check Pods Manifest.lock */,
 				0C354790217EBA470023C313 /* Sources */,
 				0C354791217EBA470023C313 /* Frameworks */,
 				0C354792217EBA470023C313 /* Resources */,
@@ -334,6 +352,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		08A64C2A3AD4A96EEF742041 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayculatorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		0CB16FE921857024001FC30D /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -368,6 +408,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Payculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE544C24BDC5A70DB80C14D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayculatorTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -593,6 +655,7 @@
 		};
 		0C3547A1217EBA480023C313 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE4DCF8FF9CCD00745CC1B95 /* Pods-PayculatorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -603,6 +666,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+					"$(FRAMEWORK_SEARCH_PATHS)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kelreid.Payculator.PayculatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -614,6 +678,7 @@
 		};
 		0C3547A2217EBA480023C313 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73257D0BCE1DF503F098740A /* Pods-PayculatorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -624,6 +689,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+					"$(FRAMEWORK_SEARCH_PATHS)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kelreid.Payculator.PayculatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -635,6 +701,7 @@
 		};
 		0C3547A4217EBA480023C313 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59E07E8B4F92853DB6FA2404 /* Pods-PayculatorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -644,6 +711,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+					"$(FRAMEWORK_SEARCH_PATHS)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kelreid.Payculator.PayculatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -655,6 +723,7 @@
 		};
 		0C3547A5217EBA480023C313 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7AF01235256EEEE6EE12241 /* Pods-PayculatorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -664,6 +733,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+					"$(FRAMEWORK_SEARCH_PATHS)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kelreid.Payculator.PayculatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

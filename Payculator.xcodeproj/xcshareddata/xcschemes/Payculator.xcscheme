@@ -28,6 +28,34 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2E1D5DFCD560D10CC0104838C2E3DD75"
+               BuildableName = "Pods_PayculatorUITests.framework"
+               BlueprintName = "Pods-PayculatorUITests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CF1BA75570C0E68F282EF8CCFBBE6065"
+               BuildableName = "Pods_PayculatorTests.framework"
+               BlueprintName = "Pods-PayculatorTests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "0C354774217EBA460023C313"
                BuildableName = "Payculator.app"
                BlueprintName = "Payculator"
