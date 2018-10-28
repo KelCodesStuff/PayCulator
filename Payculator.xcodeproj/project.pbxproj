@@ -120,8 +120,6 @@
 			isa = PBXGroup;
 			children = (
 				0C3547A6217EBA700023C313 /* Controllers */,
-				0C3547A7217EBA7C0023C313 /* Extensions */,
-				0C3547A8217EBA870023C313 /* Models */,
 				0C3547AB217EBAF90023C313 /* Storyboards */,
 				0C3547A9217EBA8E0023C313 /* Supporting Files */,
 				0C3547AA217EBA9D0023C313 /* View Controllers */,
@@ -153,20 +151,6 @@
 				0C354778217EBA460023C313 /* AppDelegate.swift */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		0C3547A7217EBA7C0023C313 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		0C3547A8217EBA870023C313 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		0C3547A9217EBA8E0023C313 /* Supporting Files */ = {
