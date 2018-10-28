@@ -10,4 +10,14 @@ build_project:
   script:
     - xcodebuild clean -workspace Payculator.xcworkspace -scheme Payculator
     - xcodebuild test -workspace Payculator.xcworkspace -scheme Payculator -destination 'platform=iOS Simulator,name=iPhone X,OS=12.0'
+    
+    
+stages:
+  - build
+
+build_project:
+  stage: build
+  script:
+    - xcodebuild clean -project ProjectName.xcodeproj -scheme SchemeName | xcpretty
+    - xcodebuild test -project ProjectName.xcodeproj -scheme SchemeName -destination 'platform=iOS Simulator,name=iPhone X,OS=12.0' | xcpretty -s
   
