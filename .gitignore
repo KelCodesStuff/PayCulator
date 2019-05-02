@@ -54,3 +54,4 @@ fastlane/test_output
 .Spotlight-V100
 *.swp
 *.lock
+Payculator/Supporting Files/Assets.xcassets/.DS_Store
