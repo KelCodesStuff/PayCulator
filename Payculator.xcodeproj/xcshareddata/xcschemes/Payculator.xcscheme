@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "522A191F64FFB2C486675EAE7EA8EE41"
+               BlueprintIdentifier = "DA101FAE2B8B97DBE1DE7D8E25FBA90C"
                BuildableName = "Pods_Payculator.framework"
                BlueprintName = "Pods-Payculator"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
@@ -28,8 +28,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2E1D5DFCD560D10CC0104838C2E3DD75"
-               BuildableName = "Pods_PayculatorUITests.framework"
+               BlueprintIdentifier = "DF9635854BBDD40A61E9B1895C153FB8"
+               BuildableName = "libPods-PayculatorUITests.a"
                BlueprintName = "Pods-PayculatorUITests"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
             </BuildableReference>
@@ -42,8 +42,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CF1BA75570C0E68F282EF8CCFBBE6065"
-               BuildableName = "Pods_PayculatorTests.framework"
+               BlueprintIdentifier = "B837EB3FF54C0B303E84094C9AD4E30B"
+               BuildableName = "libPods-PayculatorTests.a"
                BlueprintName = "Pods-PayculatorTests"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
             </BuildableReference>
