@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "522A191F64FFB2C486675EAE7EA8EE41"
+               BlueprintIdentifier = "6A875B7AA3839D744BA46CAB62C0B47F"
                BuildableName = "Pods_Payculator.framework"
                BlueprintName = "Pods-Payculator"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "522A191F64FFB2C486675EAE7EA8EE41"
+            BlueprintIdentifier = "6A875B7AA3839D744BA46CAB62C0B47F"
             BuildableName = "Pods_Payculator.framework"
             BlueprintName = "Pods-Payculator"
             ReferencedContainer = "container:Pods.xcodeproj">

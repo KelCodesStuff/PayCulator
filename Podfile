@@ -6,17 +6,20 @@ target 'Payculator' do
   use_frameworks!
 
   # Pods for Payculator
-  
-
+  pod 'Firebase/Core'
+  pod 'Fabric'
+  pod 'Crashlytics'
    
 end
 
 target 'PayculatorTests' do
   # Pods for testing
+  pod 'Firebase/Core'
 
 end
 
 target 'PayculatorUITests' do
   # Pods for testing
+  pod 'Firebase/Core'
 
 end
