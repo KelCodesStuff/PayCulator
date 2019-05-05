@@ -16,6 +16,7 @@
 		0C354799217EBA470023C313 /* PayculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C354798217EBA470023C313 /* PayculatorUITests.swift */; };
 		0C3547B3217ED5F30023C313 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 0C3547B2217ED5F30023C313 /* Readme.md */; };
 		0C3547B5217ED63D0023C313 /* TechnicalDoc.md in Resources */ = {isa = PBXBuildFile; fileRef = 0C3547B4217ED63D0023C313 /* TechnicalDoc.md */; };
+		0C5A57FA227F7D9800B6C861 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C5A57F9227F7D9800B6C861 /* GoogleService-Info.plist */; };
 		9C17327110FF9346B0D029D7 /* libPods-PayculatorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F154593B02965E8912D4ED7A /* libPods-PayculatorTests.a */; };
 		E662DE52BF63B908313A5AD2 /* libPods-PayculatorUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66540AE0E0184CB8CD0C889D /* libPods-PayculatorUITests.a */; };
 		F71AE75605EA78D3F2732A9B /* Pods_Payculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F799C8743544C8EF816C71B /* Pods_Payculator.framework */; };
@@ -54,6 +55,7 @@
 		0C35479A217EBA470023C313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C3547B2217ED5F30023C313 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		0C3547B4217ED63D0023C313 /* TechnicalDoc.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = TechnicalDoc.md; sourceTree = "<group>"; };
+		0C5A57F9227F7D9800B6C861 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		36E5DD17586263973A0B2693 /* Pods-Payculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Payculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Payculator/Pods-Payculator.release.xcconfig"; sourceTree = "<group>"; };
 		3F799C8743544C8EF816C71B /* Pods_Payculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Payculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59E07E8B4F92853DB6FA2404 /* Pods-PayculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayculatorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayculatorUITests/Pods-PayculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 		0C354777217EBA460023C313 /* Payculator */ = {
 			isa = PBXGroup;
 			children = (
+				0C5A57F9227F7D9800B6C861 /* GoogleService-Info.plist */,
 				0C3547A6217EBA700023C313 /* Controllers */,
 				0C3547AB217EBAF90023C313 /* Storyboards */,
 				0C3547A9217EBA8E0023C313 /* Supporting Files */,
@@ -214,7 +217,8 @@
 				0C354771217EBA460023C313 /* Sources */,
 				0C354772217EBA460023C313 /* Frameworks */,
 				0C354773217EBA460023C313 /* Resources */,
-				0C5A57EE227A62EF00B6C861 /* ShellScript */,
+				4F532BAC8CDCF0BB9470236F /* [CP] Embed Pods Frameworks */,
+				0C5A57F6227F69D100B6C861 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -316,6 +320,7 @@
 				0C354783217EBA470023C313 /* LaunchScreen.storyboard in Resources */,
 				0C354780217EBA470023C313 /* Assets.xcassets in Resources */,
 				0C35477E217EBA460023C313 /* Main.storyboard in Resources */,
+				0C5A57FA227F7D9800B6C861 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,7 +363,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		0C5A57EE227A62EF00B6C861 /* ShellScript */ = {
+		0C5A57F6227F69D100B6C861 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -374,8 +379,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "
-";
+			shellScript = "${PODS_ROOT}/Fabric/run b2119a8506f52ee8c62897003d503f2535a9e27b\n";
+		};
+		4F532BAC8CDCF0BB9470236F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Payculator/Pods-Payculator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities-framework/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb-framework/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Payculator/Pods-Payculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		6D4F8B071C29E7318B2E4A0B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -621,7 +649,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = PayculatorDevelopmentProfile;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -641,7 +669,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = PayculatorDevelopmentProfile;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
