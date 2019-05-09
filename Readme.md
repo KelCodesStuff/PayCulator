@@ -1,9 +1,8 @@
 # Payculator
 
-[![pipeline status](https://gitlab.com/KelCodesStuff/Payculator/badges/master/pipeline.svg)](https://gitlab.com/KelCodesStuff/Payculator/commits/master)
-[![coverage report](https://gitlab.com/KelCodesStuff/Payculator/badges/master/coverage.svg)](https://gitlab.com/KelCodesStuff/Payculator/commits/master)
+[![Build Status](https://travis-ci.com/KelCodesStuff/Payculator.svg?branch=master)](https://travis-ci.com/KelCodesStuff/Payculator)
 
-The Payculator app is designed to allow users to calculate their wage after their hourly rate, and hours worked are entered. Then if the user wants they can set a percentage to get a calculation after taxes are subtracted.
+Payculator is a finance app that anyone can use to calculate their pay. If you're an hourly worker or a salary worker Payculator is right for you.
 
 ### Current Status and Project Goals
 
