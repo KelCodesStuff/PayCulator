@@ -55,7 +55,7 @@
 		0C35479A217EBA470023C313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C3547B2217ED5F30023C313 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		0C3547B4217ED63D0023C313 /* TechnicalDoc.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = TechnicalDoc.md; sourceTree = "<group>"; };
-		0C5A57F9227F7D9800B6C861 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		0C5A57F9227F7D9800B6C861 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Payculator/Supporting Files/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		36E5DD17586263973A0B2693 /* Pods-Payculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Payculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Payculator/Pods-Payculator.release.xcconfig"; sourceTree = "<group>"; };
 		3F799C8743544C8EF816C71B /* Pods_Payculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Payculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59E07E8B4F92853DB6FA2404 /* Pods-PayculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayculatorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayculatorUITests/Pods-PayculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -121,7 +121,6 @@
 		0C354777217EBA460023C313 /* Payculator */ = {
 			isa = PBXGroup;
 			children = (
-				0C5A57F9227F7D9800B6C861 /* GoogleService-Info.plist */,
 				0C3547A6217EBA700023C313 /* Controllers */,
 				0C3547AB217EBAF90023C313 /* Storyboards */,
 				0C3547A9217EBA8E0023C313 /* Supporting Files */,
@@ -162,6 +161,7 @@
 				0C35477F217EBA470023C313 /* Assets.xcassets */,
 				0C354784217EBA470023C313 /* Info.plist */,
 				0C3547B4217ED63D0023C313 /* TechnicalDoc.md */,
+				0C5A57F9227F7D9800B6C861 /* GoogleService-Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
