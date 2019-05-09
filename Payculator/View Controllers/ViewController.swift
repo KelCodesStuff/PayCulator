@@ -15,12 +15,19 @@ class ViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-
-
+/*
+        let button = UIButton(type: .roundedRect)
+        button.frame = CGRect(x: 150, y: 200, width: 100, height: 30)
+        button.setTitle("Crash", for: [])
+        button.addTarget(self, action: #selector(self.forceCrash(_:)), for: .touchUpInside)
+        view.addSubview(button)
+ */
     }
-    
-
-    
+/*
+    @IBAction func forceCrash(_ sender: AnyObject) {
+        Crashlytics.sharedInstance().crash()
+    }
+*/
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
