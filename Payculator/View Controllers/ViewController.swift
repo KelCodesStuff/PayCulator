@@ -23,6 +23,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
         view.addSubview(button)
  */
     }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+        super.touchesBegan(touches, with: event)
+    }
 /*
     @IBAction func forceCrash(_ sender: AnyObject) {
         Crashlytics.sharedInstance().crash()
