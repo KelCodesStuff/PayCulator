@@ -15,7 +15,7 @@
 		0C35478E217EBA470023C313 /* PayculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C35478D217EBA470023C313 /* PayculatorTests.swift */; };
 		0C354799217EBA470023C313 /* PayculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C354798217EBA470023C313 /* PayculatorUITests.swift */; };
 		0C3547B3217ED5F30023C313 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 0C3547B2217ED5F30023C313 /* Readme.md */; };
-		0C3547B5217ED63D0023C313 /* TechnicalDoc.md in Resources */ = {isa = PBXBuildFile; fileRef = 0C3547B4217ED63D0023C313 /* TechnicalDoc.md */; };
+		0C52A78A22921EB9003A3373 /* InfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C52A78922921EB9003A3373 /* InfoController.swift */; };
 		0C5A57FA227F7D9800B6C861 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C5A57F9227F7D9800B6C861 /* GoogleService-Info.plist */; };
 		9C17327110FF9346B0D029D7 /* libPods-PayculatorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F154593B02965E8912D4ED7A /* libPods-PayculatorTests.a */; };
 		E662DE52BF63B908313A5AD2 /* libPods-PayculatorUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66540AE0E0184CB8CD0C889D /* libPods-PayculatorUITests.a */; };
@@ -54,7 +54,7 @@
 		0C354798217EBA470023C313 /* PayculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayculatorUITests.swift; sourceTree = "<group>"; };
 		0C35479A217EBA470023C313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C3547B2217ED5F30023C313 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
-		0C3547B4217ED63D0023C313 /* TechnicalDoc.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = TechnicalDoc.md; sourceTree = "<group>"; };
+		0C52A78922921EB9003A3373 /* InfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoController.swift; sourceTree = "<group>"; };
 		0C5A57F9227F7D9800B6C861 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Payculator/Supporting Files/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		36E5DD17586263973A0B2693 /* Pods-Payculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Payculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Payculator/Pods-Payculator.release.xcconfig"; sourceTree = "<group>"; };
 		3F799C8743544C8EF816C71B /* Pods_Payculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Payculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,7 +160,6 @@
 			children = (
 				0C35477F217EBA470023C313 /* Assets.xcassets */,
 				0C354784217EBA470023C313 /* Info.plist */,
-				0C3547B4217ED63D0023C313 /* TechnicalDoc.md */,
 				0C5A57F9227F7D9800B6C861 /* GoogleService-Info.plist */,
 			);
 			path = "Supporting Files";
@@ -170,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				0C35477A217EBA460023C313 /* ViewController.swift */,
+				0C52A78922921EB9003A3373 /* InfoController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -315,7 +315,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C3547B5217ED63D0023C313 /* TechnicalDoc.md in Resources */,
 				0C3547B3217ED5F30023C313 /* Readme.md in Resources */,
 				0C354783217EBA470023C313 /* LaunchScreen.storyboard in Resources */,
 				0C354780217EBA470023C313 /* Assets.xcassets in Resources */,
@@ -458,6 +457,7 @@
 			files = (
 				0C35477B217EBA460023C313 /* ViewController.swift in Sources */,
 				0C354779217EBA460023C313 /* AppDelegate.swift in Sources */,
+				0C52A78A22921EB9003A3373 /* InfoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
