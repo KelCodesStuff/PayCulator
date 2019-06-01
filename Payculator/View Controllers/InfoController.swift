@@ -28,6 +28,6 @@ class InfoController: UIViewController {
         let version = dictionary[appVersionNumber] as! String
         let build = dictionary[appBuildNumber] as! String
         
-        return "Version: \(version)(\(build))"
+        return "Version: \(version) (\(build))"
     }
 }
