@@ -11,4 +11,4 @@ This project is in the beta stage of development. Email me at kreidva@icloud.com
 
 
 
-![alt text](https://raw.githubusercontent.com/kelcodesstuff/Payculator/master/Docs/iPhone8Plus-0.png)
+![alt text](https://raw.githubusercontent.com/kelcodesstuff/Payculator/master/Docs/iPhone8Plus-1.png)
