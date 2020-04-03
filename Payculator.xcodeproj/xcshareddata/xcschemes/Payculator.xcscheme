@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1000"
+   LastUpgradeVersion = "1140"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DA101FAE2B8B97DBE1DE7D8E25FBA90C"
+               BlueprintIdentifier = "6A875B7AA3839D744BA46CAB62C0B47F"
                BuildableName = "Pods_Payculator.framework"
                BlueprintName = "Pods-Payculator"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DF9635854BBDD40A61E9B1895C153FB8"
+               BlueprintIdentifier = "84AE555602E6D7D60BC7D2963C819CD6"
                BuildableName = "libPods-PayculatorUITests.a"
                BlueprintName = "Pods-PayculatorUITests"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
@@ -42,7 +42,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B837EB3FF54C0B303E84094C9AD4E30B"
+               BlueprintIdentifier = "9EEE7C02537AF3C5318420C35BAE25CD"
                BuildableName = "libPods-PayculatorTests.a"
                BlueprintName = "Pods-PayculatorTests"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
@@ -69,6 +69,15 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0C354774217EBA460023C313"
+            BuildableName = "Payculator.app"
+            BlueprintName = "Payculator"
+            ReferencedContainer = "container:Payculator.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -91,17 +100,6 @@
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0C354774217EBA460023C313"
-            BuildableName = "Payculator.app"
-            BlueprintName = "Payculator"
-            ReferencedContainer = "container:Payculator.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -123,8 +121,6 @@
             ReferencedContainer = "container:Payculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
