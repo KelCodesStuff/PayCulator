@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -95,6 +95,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C0CE6E524377CF7008700C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		0C35476C217EBA460023C313 = {
 			isa = PBXGroup;
 			children = (
@@ -121,10 +128,11 @@
 		0C354777217EBA460023C313 /* Payculator */ = {
 			isa = PBXGroup;
 			children = (
-				0C3547A6217EBA700023C313 /* Controllers */,
+				0C3547A6217EBA700023C313 /* Model */,
+				0C0CE6E524377CF7008700C3 /* View */,
+				0C3547AA217EBA9D0023C313 /* Controller */,
 				0C3547AB217EBAF90023C313 /* Storyboards */,
 				0C3547A9217EBA8E0023C313 /* Supporting Files */,
-				0C3547AA217EBA9D0023C313 /* View Controllers */,
 			);
 			path = Payculator;
 			sourceTree = "<group>";
@@ -147,17 +155,17 @@
 			path = PayculatorUITests;
 			sourceTree = "<group>";
 		};
-		0C3547A6217EBA700023C313 /* Controllers */ = {
+		0C3547A6217EBA700023C313 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0C354778217EBA460023C313 /* AppDelegate.swift */,
 			);
-			path = Controllers;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		0C3547A9217EBA8E0023C313 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0C354778217EBA460023C313 /* AppDelegate.swift */,
 				0C35477F217EBA470023C313 /* Assets.xcassets */,
 				0C354784217EBA470023C313 /* Info.plist */,
 				0C5A57F9227F7D9800B6C861 /* GoogleService-Info.plist */,
@@ -165,13 +173,13 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0C3547AA217EBA9D0023C313 /* View Controllers */ = {
+		0C3547AA217EBA9D0023C313 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				0C35477A217EBA460023C313 /* ViewController.swift */,
 				0C52A78922921EB9003A3373 /* InfoController.swift */,
 			);
-			path = "View Controllers";
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		0C3547AB217EBAF90023C313 /* Storyboards */ = {
@@ -279,19 +287,22 @@
 				TargetAttributes = {
 					0C354774217EBA460023C313 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1140;
 					};
 					0C354788217EBA470023C313 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1140;
 						TestTargetID = 0C354774217EBA460023C313;
 					};
 					0C354793217EBA470023C313 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1140;
 						TestTargetID = 0C354774217EBA460023C313;
 					};
 				};
 			};
 			buildConfigurationList = 0C354770217EBA460023C313 /* Build configuration list for PBXProject "Payculator" */;
-			compatibilityVersion = "Xcode 10.0";
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -641,6 +652,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = WC92Z884R6;
 				INFOPLIST_FILE = "$(SRCROOT)/Payculator/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -648,7 +660,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kelvinreid.Payculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = PayculatorDevelopmentProfile;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -661,6 +673,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = WC92Z884R6;
 				INFOPLIST_FILE = "$(SRCROOT)/Payculator/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -668,7 +681,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kelvinreid.Payculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = PayculatorDevelopmentProfile;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -690,7 +703,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kelreid.Payculator.PayculatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Payculator.app/Payculator";
 			};
@@ -713,7 +726,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kelreid.Payculator.PayculatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Payculator.app/Payculator";
 			};
@@ -735,7 +748,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kelreid.Payculator.PayculatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Payculator;
 			};
@@ -757,7 +770,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kelreid.Payculator.PayculatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Payculator;
 			};
