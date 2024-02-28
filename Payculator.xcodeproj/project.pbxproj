@@ -3,345 +3,276 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 53;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C354779217EBA460023C313 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C354778217EBA460023C313 /* AppDelegate.swift */; };
-		0C35477B217EBA460023C313 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C35477A217EBA460023C313 /* ViewController.swift */; };
-		0C35477E217EBA460023C313 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C35477C217EBA460023C313 /* Main.storyboard */; };
-		0C354780217EBA470023C313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C35477F217EBA470023C313 /* Assets.xcassets */; };
-		0C354783217EBA470023C313 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C354781217EBA470023C313 /* LaunchScreen.storyboard */; };
-		0C35478E217EBA470023C313 /* PayculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C35478D217EBA470023C313 /* PayculatorTests.swift */; };
-		0C354799217EBA470023C313 /* PayculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C354798217EBA470023C313 /* PayculatorUITests.swift */; };
-		0C3547B3217ED5F30023C313 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 0C3547B2217ED5F30023C313 /* Readme.md */; };
-		0C52A78A22921EB9003A3373 /* InfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C52A78922921EB9003A3373 /* InfoController.swift */; };
-		0C5A57FA227F7D9800B6C861 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C5A57F9227F7D9800B6C861 /* GoogleService-Info.plist */; };
-		9C17327110FF9346B0D029D7 /* libPods-PayculatorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F154593B02965E8912D4ED7A /* libPods-PayculatorTests.a */; };
-		E662DE52BF63B908313A5AD2 /* libPods-PayculatorUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66540AE0E0184CB8CD0C889D /* libPods-PayculatorUITests.a */; };
-		F71AE75605EA78D3F2732A9B /* Pods_Payculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F799C8743544C8EF816C71B /* Pods_Payculator.framework */; };
+		BA47B4AF2B8FAA8C0065797A /* PayCulatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA47B4AE2B8FAA8C0065797A /* PayCulatorApp.swift */; };
+		BA47B4B12B8FAA8C0065797A /* SalaryCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA47B4B02B8FAA8C0065797A /* SalaryCalculatorView.swift */; };
+		BA47B4B32B8FAA8F0065797A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA47B4B22B8FAA8F0065797A /* Assets.xcassets */; };
+		BA47B4B62B8FAA8F0065797A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA47B4B52B8FAA8F0065797A /* Preview Assets.xcassets */; };
+		BA47B4B82B8FAA8F0065797A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA47B4B72B8FAA8F0065797A /* Persistence.swift */; };
+		BA47B4BB2B8FAA8F0065797A /* PayCulator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA47B4B92B8FAA8F0065797A /* PayCulator.xcdatamodeld */; };
+		BA47B4C52B8FAA8F0065797A /* PayCulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA47B4C42B8FAA8F0065797A /* PayCulatorTests.swift */; };
+		BA47B4CF2B8FAA8F0065797A /* PayCulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA47B4CE2B8FAA8F0065797A /* PayCulatorUITests.swift */; };
+		BA47B4D12B8FAA8F0065797A /* PayCulatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA47B4D02B8FAA8F0065797A /* PayCulatorUITestsLaunchTests.swift */; };
+		BA47B4E22B8FB8140065797A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA47B4E12B8FB8140065797A /* SettingsView.swift */; };
+		BA73FC702B8FBCD300569553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA73FC6F2B8FBCD300569553 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0C35478A217EBA470023C313 /* PBXContainerItemProxy */ = {
+		BA47B4C12B8FAA8F0065797A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0C35476D217EBA460023C313 /* Project object */;
+			containerPortal = BA47B4A32B8FAA8C0065797A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0C354774217EBA460023C313;
-			remoteInfo = Payculator;
+			remoteGlobalIDString = BA47B4AA2B8FAA8C0065797A;
+			remoteInfo = PayCulator;
 		};
-		0C354795217EBA470023C313 /* PBXContainerItemProxy */ = {
+		BA47B4CB2B8FAA8F0065797A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0C35476D217EBA460023C313 /* Project object */;
+			containerPortal = BA47B4A32B8FAA8C0065797A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0C354774217EBA460023C313;
-			remoteInfo = Payculator;
+			remoteGlobalIDString = BA47B4AA2B8FAA8C0065797A;
+			remoteInfo = PayCulator;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C354775217EBA460023C313 /* Payculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Payculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C354778217EBA460023C313 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0C35477A217EBA460023C313 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0C35477D217EBA460023C313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0C35477F217EBA470023C313 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0C354782217EBA470023C313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0C354784217EBA470023C313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C354789217EBA470023C313 /* PayculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C35478D217EBA470023C313 /* PayculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayculatorTests.swift; sourceTree = "<group>"; };
-		0C35478F217EBA470023C313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C354794217EBA470023C313 /* PayculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C354798217EBA470023C313 /* PayculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayculatorUITests.swift; sourceTree = "<group>"; };
-		0C35479A217EBA470023C313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C3547B2217ED5F30023C313 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
-		0C52A78922921EB9003A3373 /* InfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoController.swift; sourceTree = "<group>"; };
-		0C5A57F9227F7D9800B6C861 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Payculator/Supporting Files/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
-		36E5DD17586263973A0B2693 /* Pods-Payculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Payculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Payculator/Pods-Payculator.release.xcconfig"; sourceTree = "<group>"; };
-		3F799C8743544C8EF816C71B /* Pods_Payculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Payculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		59E07E8B4F92853DB6FA2404 /* Pods-PayculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayculatorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayculatorUITests/Pods-PayculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		66540AE0E0184CB8CD0C889D /* libPods-PayculatorUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PayculatorUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		73257D0BCE1DF503F098740A /* Pods-PayculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayculatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayculatorTests/Pods-PayculatorTests.release.xcconfig"; sourceTree = "<group>"; };
-		8C04FFDF59F0EAA47DD7D0BF /* Pods-Payculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Payculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Payculator/Pods-Payculator.debug.xcconfig"; sourceTree = "<group>"; };
-		AE4DCF8FF9CCD00745CC1B95 /* Pods-PayculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayculatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayculatorTests/Pods-PayculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E7AF01235256EEEE6EE12241 /* Pods-PayculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayculatorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayculatorUITests/Pods-PayculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
-		F154593B02965E8912D4ED7A /* libPods-PayculatorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PayculatorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA47B4AB2B8FAA8C0065797A /* Payculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Payculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA47B4AE2B8FAA8C0065797A /* PayCulatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayCulatorApp.swift; sourceTree = "<group>"; };
+		BA47B4B02B8FAA8C0065797A /* SalaryCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryCalculatorView.swift; sourceTree = "<group>"; };
+		BA47B4B22B8FAA8F0065797A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA47B4B52B8FAA8F0065797A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA47B4B72B8FAA8F0065797A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BA47B4BA2B8FAA8F0065797A /* PayCulator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PayCulator.xcdatamodel; sourceTree = "<group>"; };
+		BA47B4C02B8FAA8F0065797A /* PayculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA47B4C42B8FAA8F0065797A /* PayCulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayCulatorTests.swift; sourceTree = "<group>"; };
+		BA47B4CA2B8FAA8F0065797A /* PayculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA47B4CE2B8FAA8F0065797A /* PayCulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayCulatorUITests.swift; sourceTree = "<group>"; };
+		BA47B4D02B8FAA8F0065797A /* PayCulatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayCulatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA47B4E12B8FB8140065797A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BA73FC6F2B8FBCD300569553 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0C354772217EBA460023C313 /* Frameworks */ = {
+		BA47B4A82B8FAA8C0065797A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F71AE75605EA78D3F2732A9B /* Pods_Payculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0C354786217EBA470023C313 /* Frameworks */ = {
+		BA47B4BD2B8FAA8F0065797A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C17327110FF9346B0D029D7 /* libPods-PayculatorTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0C354791217EBA470023C313 /* Frameworks */ = {
+		BA47B4C72B8FAA8F0065797A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E662DE52BF63B908313A5AD2 /* libPods-PayculatorUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C0CE6E524377CF7008700C3 /* View */ = {
+		BA47B4A22B8FAA8C0065797A = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		0C35476C217EBA460023C313 = {
-			isa = PBXGroup;
-			children = (
-				0C354777217EBA460023C313 /* Payculator */,
-				0C3547B2217ED5F30023C313 /* Readme.md */,
-				0C35478C217EBA470023C313 /* PayculatorTests */,
-				0C354797217EBA470023C313 /* PayculatorUITests */,
-				0C354776217EBA460023C313 /* Products */,
-				836A7C83A42F932B6A9C4F83 /* Pods */,
-				AA16A1D6A8496F0B2D74DFCB /* Frameworks */,
+				BA47B4AD2B8FAA8C0065797A /* PayCulator */,
+				BA47B4C32B8FAA8F0065797A /* PayCulatorTests */,
+				BA47B4CD2B8FAA8F0065797A /* PayCulatorUITests */,
+				BA47B4AC2B8FAA8C0065797A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0C354776217EBA460023C313 /* Products */ = {
+		BA47B4AC2B8FAA8C0065797A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0C354775217EBA460023C313 /* Payculator.app */,
-				0C354789217EBA470023C313 /* PayculatorTests.xctest */,
-				0C354794217EBA470023C313 /* PayculatorUITests.xctest */,
+				BA47B4AB2B8FAA8C0065797A /* Payculator.app */,
+				BA47B4C02B8FAA8F0065797A /* PayculatorTests.xctest */,
+				BA47B4CA2B8FAA8F0065797A /* PayculatorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0C354777217EBA460023C313 /* Payculator */ = {
+		BA47B4AD2B8FAA8C0065797A /* PayCulator */ = {
 			isa = PBXGroup;
 			children = (
-				0C3547A6217EBA700023C313 /* Model */,
-				0C0CE6E524377CF7008700C3 /* View */,
-				0C3547AA217EBA9D0023C313 /* Controller */,
-				0C3547AB217EBAF90023C313 /* Storyboards */,
-				0C3547A9217EBA8E0023C313 /* Supporting Files */,
+				BA47B4AE2B8FAA8C0065797A /* PayCulatorApp.swift */,
+				BA47B4DD2B8FAAFE0065797A /* View */,
+				BA47B4DE2B8FAB0C0065797A /* Extensions */,
+				BA47B4B22B8FAA8F0065797A /* Assets.xcassets */,
+				BA47B4B72B8FAA8F0065797A /* Persistence.swift */,
+				BA47B4B92B8FAA8F0065797A /* PayCulator.xcdatamodeld */,
+				BA73FC6F2B8FBCD300569553 /* LaunchScreen.storyboard */,
+				BA47B4B42B8FAA8F0065797A /* Preview Content */,
 			);
-			path = Payculator;
+			path = PayCulator;
 			sourceTree = "<group>";
 		};
-		0C35478C217EBA470023C313 /* PayculatorTests */ = {
+		BA47B4B42B8FAA8F0065797A /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				0C35478D217EBA470023C313 /* PayculatorTests.swift */,
-				0C35478F217EBA470023C313 /* Info.plist */,
+				BA47B4B52B8FAA8F0065797A /* Preview Assets.xcassets */,
 			);
-			path = PayculatorTests;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		0C354797217EBA470023C313 /* PayculatorUITests */ = {
+		BA47B4C32B8FAA8F0065797A /* PayCulatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				0C354798217EBA470023C313 /* PayculatorUITests.swift */,
-				0C35479A217EBA470023C313 /* Info.plist */,
+				BA47B4C42B8FAA8F0065797A /* PayCulatorTests.swift */,
 			);
-			path = PayculatorUITests;
+			path = PayCulatorTests;
 			sourceTree = "<group>";
 		};
-		0C3547A6217EBA700023C313 /* Model */ = {
+		BA47B4CD2B8FAA8F0065797A /* PayCulatorUITests */ = {
 			isa = PBXGroup;
 			children = (
+				BA47B4CE2B8FAA8F0065797A /* PayCulatorUITests.swift */,
+				BA47B4D02B8FAA8F0065797A /* PayCulatorUITestsLaunchTests.swift */,
 			);
-			path = Model;
+			path = PayCulatorUITests;
 			sourceTree = "<group>";
 		};
-		0C3547A9217EBA8E0023C313 /* Supporting Files */ = {
+		BA47B4DD2B8FAAFE0065797A /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0C354778217EBA460023C313 /* AppDelegate.swift */,
-				0C35477F217EBA470023C313 /* Assets.xcassets */,
-				0C354784217EBA470023C313 /* Info.plist */,
-				0C5A57F9227F7D9800B6C861 /* GoogleService-Info.plist */,
+				BA47B4B02B8FAA8C0065797A /* SalaryCalculatorView.swift */,
+				BA47B4E12B8FB8140065797A /* SettingsView.swift */,
 			);
-			path = "Supporting Files";
+			path = View;
 			sourceTree = "<group>";
 		};
-		0C3547AA217EBA9D0023C313 /* Controller */ = {
+		BA47B4DE2B8FAB0C0065797A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				0C35477A217EBA460023C313 /* ViewController.swift */,
-				0C52A78922921EB9003A3373 /* InfoController.swift */,
 			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		0C3547AB217EBAF90023C313 /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				0C354781217EBA470023C313 /* LaunchScreen.storyboard */,
-				0C35477C217EBA460023C313 /* Main.storyboard */,
-			);
-			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		836A7C83A42F932B6A9C4F83 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8C04FFDF59F0EAA47DD7D0BF /* Pods-Payculator.debug.xcconfig */,
-				36E5DD17586263973A0B2693 /* Pods-Payculator.release.xcconfig */,
-				AE4DCF8FF9CCD00745CC1B95 /* Pods-PayculatorTests.debug.xcconfig */,
-				73257D0BCE1DF503F098740A /* Pods-PayculatorTests.release.xcconfig */,
-				59E07E8B4F92853DB6FA2404 /* Pods-PayculatorUITests.debug.xcconfig */,
-				E7AF01235256EEEE6EE12241 /* Pods-PayculatorUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		AA16A1D6A8496F0B2D74DFCB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3F799C8743544C8EF816C71B /* Pods_Payculator.framework */,
-				F154593B02965E8912D4ED7A /* libPods-PayculatorTests.a */,
-				66540AE0E0184CB8CD0C889D /* libPods-PayculatorUITests.a */,
-			);
-			name = Frameworks;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0C354774217EBA460023C313 /* Payculator */ = {
+		BA47B4AA2B8FAA8C0065797A /* Payculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C35479D217EBA480023C313 /* Build configuration list for PBXNativeTarget "Payculator" */;
+			buildConfigurationList = BA47B4D42B8FAA8F0065797A /* Build configuration list for PBXNativeTarget "Payculator" */;
 			buildPhases = (
-				6D4F8B071C29E7318B2E4A0B /* [CP] Check Pods Manifest.lock */,
-				0C354771217EBA460023C313 /* Sources */,
-				0C354772217EBA460023C313 /* Frameworks */,
-				0C354773217EBA460023C313 /* Resources */,
-				4F532BAC8CDCF0BB9470236F /* [CP] Embed Pods Frameworks */,
-				0C5A57F6227F69D100B6C861 /* ShellScript */,
+				BA47B4A72B8FAA8C0065797A /* Sources */,
+				BA47B4A82B8FAA8C0065797A /* Frameworks */,
+				BA47B4A92B8FAA8C0065797A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Payculator;
-			productName = Payculator;
-			productReference = 0C354775217EBA460023C313 /* Payculator.app */;
+			productName = PayCulator;
+			productReference = BA47B4AB2B8FAA8C0065797A /* Payculator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0C354788217EBA470023C313 /* PayculatorTests */ = {
+		BA47B4BF2B8FAA8F0065797A /* PayculatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C3547A0217EBA480023C313 /* Build configuration list for PBXNativeTarget "PayculatorTests" */;
+			buildConfigurationList = BA47B4D72B8FAA8F0065797A /* Build configuration list for PBXNativeTarget "PayculatorTests" */;
 			buildPhases = (
-				AE544C24BDC5A70DB80C14D6 /* [CP] Check Pods Manifest.lock */,
-				0C354785217EBA470023C313 /* Sources */,
-				0C354786217EBA470023C313 /* Frameworks */,
-				0C354787217EBA470023C313 /* Resources */,
+				BA47B4BC2B8FAA8F0065797A /* Sources */,
+				BA47B4BD2B8FAA8F0065797A /* Frameworks */,
+				BA47B4BE2B8FAA8F0065797A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0C35478B217EBA470023C313 /* PBXTargetDependency */,
+				BA47B4C22B8FAA8F0065797A /* PBXTargetDependency */,
 			);
 			name = PayculatorTests;
-			productName = PayculatorTests;
-			productReference = 0C354789217EBA470023C313 /* PayculatorTests.xctest */;
+			productName = PayCulatorTests;
+			productReference = BA47B4C02B8FAA8F0065797A /* PayculatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0C354793217EBA470023C313 /* PayculatorUITests */ = {
+		BA47B4C92B8FAA8F0065797A /* PayculatorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C3547A3217EBA480023C313 /* Build configuration list for PBXNativeTarget "PayculatorUITests" */;
+			buildConfigurationList = BA47B4DA2B8FAA8F0065797A /* Build configuration list for PBXNativeTarget "PayculatorUITests" */;
 			buildPhases = (
-				08A64C2A3AD4A96EEF742041 /* [CP] Check Pods Manifest.lock */,
-				0C354790217EBA470023C313 /* Sources */,
-				0C354791217EBA470023C313 /* Frameworks */,
-				0C354792217EBA470023C313 /* Resources */,
+				BA47B4C62B8FAA8F0065797A /* Sources */,
+				BA47B4C72B8FAA8F0065797A /* Frameworks */,
+				BA47B4C82B8FAA8F0065797A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0C354796217EBA470023C313 /* PBXTargetDependency */,
+				BA47B4CC2B8FAA8F0065797A /* PBXTargetDependency */,
 			);
 			name = PayculatorUITests;
-			productName = PayculatorUITests;
-			productReference = 0C354794217EBA470023C313 /* PayculatorUITests.xctest */;
+			productName = PayCulatorUITests;
+			productReference = BA47B4CA2B8FAA8F0065797A /* PayculatorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0C35476D217EBA460023C313 /* Project object */ = {
+		BA47B4A32B8FAA8C0065797A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1000;
-				LastUpgradeCheck = 1000;
-				ORGANIZATIONNAME = "Kelvin Reid";
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					0C354774217EBA460023C313 = {
-						CreatedOnToolsVersion = 10.0;
-						LastSwiftMigration = 1140;
+					BA47B4AA2B8FAA8C0065797A = {
+						CreatedOnToolsVersion = 15.2;
 					};
-					0C354788217EBA470023C313 = {
-						CreatedOnToolsVersion = 10.0;
-						LastSwiftMigration = 1140;
-						TestTargetID = 0C354774217EBA460023C313;
+					BA47B4BF2B8FAA8F0065797A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BA47B4AA2B8FAA8C0065797A;
 					};
-					0C354793217EBA470023C313 = {
-						CreatedOnToolsVersion = 10.0;
-						LastSwiftMigration = 1140;
-						TestTargetID = 0C354774217EBA460023C313;
+					BA47B4C92B8FAA8F0065797A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BA47B4AA2B8FAA8C0065797A;
 					};
 				};
 			};
-			buildConfigurationList = 0C354770217EBA460023C313 /* Build configuration list for PBXProject "Payculator" */;
-			compatibilityVersion = "Xcode 11.4";
+			buildConfigurationList = BA47B4A62B8FAA8C0065797A /* Build configuration list for PBXProject "Payculator" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 0C35476C217EBA460023C313;
-			productRefGroup = 0C354776217EBA460023C313 /* Products */;
+			mainGroup = BA47B4A22B8FAA8C0065797A;
+			productRefGroup = BA47B4AC2B8FAA8C0065797A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0C354774217EBA460023C313 /* Payculator */,
-				0C354788217EBA470023C313 /* PayculatorTests */,
-				0C354793217EBA470023C313 /* PayculatorUITests */,
+				BA47B4AA2B8FAA8C0065797A /* Payculator */,
+				BA47B4BF2B8FAA8F0065797A /* PayculatorTests */,
+				BA47B4C92B8FAA8F0065797A /* PayculatorUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0C354773217EBA460023C313 /* Resources */ = {
+		BA47B4A92B8FAA8C0065797A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C3547B3217ED5F30023C313 /* Readme.md in Resources */,
-				0C354783217EBA470023C313 /* LaunchScreen.storyboard in Resources */,
-				0C354780217EBA470023C313 /* Assets.xcassets in Resources */,
-				0C35477E217EBA460023C313 /* Main.storyboard in Resources */,
-				0C5A57FA227F7D9800B6C861 /* GoogleService-Info.plist in Resources */,
+				BA73FC702B8FBCD300569553 /* LaunchScreen.storyboard in Resources */,
+				BA47B4B62B8FAA8F0065797A /* Preview Assets.xcassets in Resources */,
+				BA47B4B32B8FAA8F0065797A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0C354787217EBA470023C313 /* Resources */ = {
+		BA47B4BE2B8FAA8F0065797A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0C354792217EBA470023C313 /* Resources */ = {
+		BA47B4C82B8FAA8F0065797A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -350,187 +281,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		08A64C2A3AD4A96EEF742041 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PayculatorUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		0C5A57F6227F69D100B6C861 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/run\"\n";
-		};
-		4F532BAC8CDCF0BB9470236F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Payculator/Pods-Payculator-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities-framework/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb-framework/nanopb.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Payculator/Pods-Payculator-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6D4F8B071C29E7318B2E4A0B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Payculator-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AE544C24BDC5A70DB80C14D6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PayculatorTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		0C354771217EBA460023C313 /* Sources */ = {
+		BA47B4A72B8FAA8C0065797A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C35477B217EBA460023C313 /* ViewController.swift in Sources */,
-				0C354779217EBA460023C313 /* AppDelegate.swift in Sources */,
-				0C52A78A22921EB9003A3373 /* InfoController.swift in Sources */,
+				BA47B4E22B8FB8140065797A /* SettingsView.swift in Sources */,
+				BA47B4B82B8FAA8F0065797A /* Persistence.swift in Sources */,
+				BA47B4B12B8FAA8C0065797A /* SalaryCalculatorView.swift in Sources */,
+				BA47B4AF2B8FAA8C0065797A /* PayCulatorApp.swift in Sources */,
+				BA47B4BB2B8FAA8F0065797A /* PayCulator.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0C354785217EBA470023C313 /* Sources */ = {
+		BA47B4BC2B8FAA8F0065797A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C35478E217EBA470023C313 /* PayculatorTests.swift in Sources */,
+				BA47B4C52B8FAA8F0065797A /* PayCulatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0C354790217EBA470023C313 /* Sources */ = {
+		BA47B4C62B8FAA8F0065797A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C354799217EBA470023C313 /* PayculatorUITests.swift in Sources */,
+				BA47B4D12B8FAA8F0065797A /* PayCulatorUITestsLaunchTests.swift in Sources */,
+				BA47B4CF2B8FAA8F0065797A /* PayCulatorUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0C35478B217EBA470023C313 /* PBXTargetDependency */ = {
+		BA47B4C22B8FAA8F0065797A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0C354774217EBA460023C313 /* Payculator */;
-			targetProxy = 0C35478A217EBA470023C313 /* PBXContainerItemProxy */;
+			target = BA47B4AA2B8FAA8C0065797A /* Payculator */;
+			targetProxy = BA47B4C12B8FAA8F0065797A /* PBXContainerItemProxy */;
 		};
-		0C354796217EBA470023C313 /* PBXTargetDependency */ = {
+		BA47B4CC2B8FAA8F0065797A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0C354774217EBA460023C313 /* Payculator */;
-			targetProxy = 0C354795217EBA470023C313 /* PBXContainerItemProxy */;
+			target = BA47B4AA2B8FAA8C0065797A /* Payculator */;
+			targetProxy = BA47B4CB2B8FAA8F0065797A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		0C35477C217EBA460023C313 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0C35477D217EBA460023C313 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0C354781217EBA470023C313 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0C354782217EBA470023C313 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		0C35479B217EBA480023C313 /* Debug */ = {
+		BA47B4D22B8FAA8F0065797A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -549,20 +353,19 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = WC92Z884R6;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -576,24 +379,25 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		0C35479C217EBA480023C313 /* Release */ = {
+		BA47B4D32B8FAA8F0065797A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -612,20 +416,19 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = WC92Z884R6;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -633,189 +436,209 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		0C35479E217EBA480023C313 /* Debug */ = {
+		BA47B4D52B8FAA8F0065797A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C04FFDF59F0EAA47DD7D0BF /* Pods-Payculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 128;
+				DEVELOPMENT_ASSET_PATHS = "\"PayCulator/Preview Content\"";
 				DEVELOPMENT_TEAM = WC92Z884R6;
-				INFOPLIST_FILE = "$(SRCROOT)/Payculator/Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Payculator;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kelvinreid.Payculator;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Studio757.Payculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = PayculatorDevelopmentProfile;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		0C35479F217EBA480023C313 /* Release */ = {
+		BA47B4D62B8FAA8F0065797A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36E5DD17586263973A0B2693 /* Pods-Payculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 128;
+				DEVELOPMENT_ASSET_PATHS = "\"PayCulator/Preview Content\"";
 				DEVELOPMENT_TEAM = WC92Z884R6;
-				INFOPLIST_FILE = "$(SRCROOT)/Payculator/Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Payculator;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kelvinreid.Payculator;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Studio757.Payculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = PayculatorDevelopmentProfile;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		0C3547A1217EBA480023C313 /* Debug */ = {
+		BA47B4D82B8FAA8F0065797A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE4DCF8FF9CCD00745CC1B95 /* Pods-PayculatorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = WC92Z884R6;
-				INFOPLIST_FILE = PayculatorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-					"$(FRAMEWORK_SEARCH_PATHS)",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kelreid.Payculator.PayculatorTests;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CT2P7VWHVS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Studio757.PayCulatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Payculator.app/Payculator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Payculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Payculator";
 			};
 			name = Debug;
 		};
-		0C3547A2217EBA480023C313 /* Release */ = {
+		BA47B4D92B8FAA8F0065797A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73257D0BCE1DF503F098740A /* Pods-PayculatorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = WC92Z884R6;
-				INFOPLIST_FILE = PayculatorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-					"$(FRAMEWORK_SEARCH_PATHS)",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kelreid.Payculator.PayculatorTests;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CT2P7VWHVS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Studio757.PayCulatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Payculator.app/Payculator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Payculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Payculator";
 			};
 			name = Release;
 		};
-		0C3547A4217EBA480023C313 /* Debug */ = {
+		BA47B4DB2B8FAA8F0065797A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59E07E8B4F92853DB6FA2404 /* Pods-PayculatorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WC92Z884R6;
-				INFOPLIST_FILE = PayculatorUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-					"$(FRAMEWORK_SEARCH_PATHS)",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kelreid.Payculator.PayculatorUITests;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CT2P7VWHVS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Studio757.PayCulatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Payculator;
+				TEST_TARGET_NAME = PayCulator;
 			};
 			name = Debug;
 		};
-		0C3547A5217EBA480023C313 /* Release */ = {
+		BA47B4DC2B8FAA8F0065797A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7AF01235256EEEE6EE12241 /* Pods-PayculatorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WC92Z884R6;
-				INFOPLIST_FILE = PayculatorUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-					"$(FRAMEWORK_SEARCH_PATHS)",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kelreid.Payculator.PayculatorUITests;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CT2P7VWHVS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Studio757.PayCulatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Payculator;
+				TEST_TARGET_NAME = PayCulator;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0C354770217EBA460023C313 /* Build configuration list for PBXProject "Payculator" */ = {
+		BA47B4A62B8FAA8C0065797A /* Build configuration list for PBXProject "Payculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0C35479B217EBA480023C313 /* Debug */,
-				0C35479C217EBA480023C313 /* Release */,
+				BA47B4D22B8FAA8F0065797A /* Debug */,
+				BA47B4D32B8FAA8F0065797A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C35479D217EBA480023C313 /* Build configuration list for PBXNativeTarget "Payculator" */ = {
+		BA47B4D42B8FAA8F0065797A /* Build configuration list for PBXNativeTarget "Payculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0C35479E217EBA480023C313 /* Debug */,
-				0C35479F217EBA480023C313 /* Release */,
+				BA47B4D52B8FAA8F0065797A /* Debug */,
+				BA47B4D62B8FAA8F0065797A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C3547A0217EBA480023C313 /* Build configuration list for PBXNativeTarget "PayculatorTests" */ = {
+		BA47B4D72B8FAA8F0065797A /* Build configuration list for PBXNativeTarget "PayculatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0C3547A1217EBA480023C313 /* Debug */,
-				0C3547A2217EBA480023C313 /* Release */,
+				BA47B4D82B8FAA8F0065797A /* Debug */,
+				BA47B4D92B8FAA8F0065797A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C3547A3217EBA480023C313 /* Build configuration list for PBXNativeTarget "PayculatorUITests" */ = {
+		BA47B4DA2B8FAA8F0065797A /* Build configuration list for PBXNativeTarget "PayculatorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0C3547A4217EBA480023C313 /* Debug */,
-				0C3547A5217EBA480023C313 /* Release */,
+				BA47B4DB2B8FAA8F0065797A /* Debug */,
+				BA47B4DC2B8FAA8F0065797A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA47B4B92B8FAA8F0065797A /* PayCulator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA47B4BA2B8FAA8F0065797A /* PayCulator.xcdatamodel */,
+			);
+			currentVersion = BA47B4BA2B8FAA8F0065797A /* PayCulator.xcdatamodel */;
+			path = PayCulator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = 0C35476D217EBA460023C313 /* Project object */;
+	rootObject = BA47B4A32B8FAA8C0065797A /* Project object */;
 }
