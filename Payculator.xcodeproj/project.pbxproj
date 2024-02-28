@@ -13,9 +13,9 @@
 		BA47B4B62B8FAA8F0065797A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA47B4B52B8FAA8F0065797A /* Preview Assets.xcassets */; };
 		BA47B4B82B8FAA8F0065797A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA47B4B72B8FAA8F0065797A /* Persistence.swift */; };
 		BA47B4BB2B8FAA8F0065797A /* PayCulator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA47B4B92B8FAA8F0065797A /* PayCulator.xcdatamodeld */; };
-		BA47B4C52B8FAA8F0065797A /* PayCulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA47B4C42B8FAA8F0065797A /* PayCulatorTests.swift */; };
-		BA47B4CF2B8FAA8F0065797A /* PayCulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA47B4CE2B8FAA8F0065797A /* PayCulatorUITests.swift */; };
-		BA47B4D12B8FAA8F0065797A /* PayCulatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA47B4D02B8FAA8F0065797A /* PayCulatorUITestsLaunchTests.swift */; };
+		BA47B4C52B8FAA8F0065797A /* PayculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA47B4C42B8FAA8F0065797A /* PayculatorTests.swift */; };
+		BA47B4CF2B8FAA8F0065797A /* PayculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA47B4CE2B8FAA8F0065797A /* PayculatorUITests.swift */; };
+		BA47B4D12B8FAA8F0065797A /* PayculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA47B4D02B8FAA8F0065797A /* PayculatorUITestsLaunchTests.swift */; };
 		BA47B4E22B8FB8140065797A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA47B4E12B8FB8140065797A /* SettingsView.swift */; };
 		BA73FC702B8FBCD300569553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA73FC6F2B8FBCD300569553 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -46,10 +46,10 @@
 		BA47B4B72B8FAA8F0065797A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		BA47B4BA2B8FAA8F0065797A /* PayCulator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PayCulator.xcdatamodel; sourceTree = "<group>"; };
 		BA47B4C02B8FAA8F0065797A /* PayculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA47B4C42B8FAA8F0065797A /* PayCulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayCulatorTests.swift; sourceTree = "<group>"; };
+		BA47B4C42B8FAA8F0065797A /* PayculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayculatorTests.swift; sourceTree = "<group>"; };
 		BA47B4CA2B8FAA8F0065797A /* PayculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA47B4CE2B8FAA8F0065797A /* PayCulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayCulatorUITests.swift; sourceTree = "<group>"; };
-		BA47B4D02B8FAA8F0065797A /* PayCulatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayCulatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA47B4CE2B8FAA8F0065797A /* PayculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayculatorUITests.swift; sourceTree = "<group>"; };
+		BA47B4D02B8FAA8F0065797A /* PayculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BA47B4E12B8FB8140065797A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		BA73FC6F2B8FBCD300569553 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,8 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				BA47B4AD2B8FAA8C0065797A /* PayCulator */,
-				BA47B4C32B8FAA8F0065797A /* PayCulatorTests */,
-				BA47B4CD2B8FAA8F0065797A /* PayCulatorUITests */,
+				BA47B4C32B8FAA8F0065797A /* PayculatorTests */,
+				BA47B4CD2B8FAA8F0065797A /* PayculatorUITests */,
 				BA47B4AC2B8FAA8C0065797A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,13 +102,10 @@
 		BA47B4AD2B8FAA8C0065797A /* PayCulator */ = {
 			isa = PBXGroup;
 			children = (
-				BA47B4AE2B8FAA8C0065797A /* PayCulatorApp.swift */,
 				BA47B4DD2B8FAAFE0065797A /* View */,
 				BA47B4DE2B8FAB0C0065797A /* Extensions */,
-				BA47B4B22B8FAA8F0065797A /* Assets.xcassets */,
-				BA47B4B72B8FAA8F0065797A /* Persistence.swift */,
-				BA47B4B92B8FAA8F0065797A /* PayCulator.xcdatamodeld */,
-				BA73FC6F2B8FBCD300569553 /* LaunchScreen.storyboard */,
+				BA73FC742B8FF06F00569553 /* Persistence */,
+				BA73FC732B8FF00F00569553 /* SupportFiles */,
 				BA47B4B42B8FAA8F0065797A /* Preview Content */,
 			);
 			path = PayCulator;
@@ -122,26 +119,27 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		BA47B4C32B8FAA8F0065797A /* PayCulatorTests */ = {
+		BA47B4C32B8FAA8F0065797A /* PayculatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				BA47B4C42B8FAA8F0065797A /* PayCulatorTests.swift */,
+				BA47B4C42B8FAA8F0065797A /* PayculatorTests.swift */,
 			);
-			path = PayCulatorTests;
+			path = PayculatorTests;
 			sourceTree = "<group>";
 		};
-		BA47B4CD2B8FAA8F0065797A /* PayCulatorUITests */ = {
+		BA47B4CD2B8FAA8F0065797A /* PayculatorUITests */ = {
 			isa = PBXGroup;
 			children = (
-				BA47B4CE2B8FAA8F0065797A /* PayCulatorUITests.swift */,
-				BA47B4D02B8FAA8F0065797A /* PayCulatorUITestsLaunchTests.swift */,
+				BA47B4CE2B8FAA8F0065797A /* PayculatorUITests.swift */,
+				BA47B4D02B8FAA8F0065797A /* PayculatorUITestsLaunchTests.swift */,
 			);
-			path = PayCulatorUITests;
+			path = PayculatorUITests;
 			sourceTree = "<group>";
 		};
 		BA47B4DD2B8FAAFE0065797A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BA47B4AE2B8FAA8C0065797A /* PayCulatorApp.swift */,
 				BA47B4B02B8FAA8C0065797A /* SalaryCalculatorView.swift */,
 				BA47B4E12B8FB8140065797A /* SettingsView.swift */,
 			);
@@ -153,6 +151,24 @@
 			children = (
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BA73FC732B8FF00F00569553 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BA47B4B22B8FAA8F0065797A /* Assets.xcassets */,
+				BA73FC6F2B8FBCD300569553 /* LaunchScreen.storyboard */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		BA73FC742B8FF06F00569553 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				BA47B4B92B8FAA8F0065797A /* PayCulator.xcdatamodeld */,
+				BA47B4B72B8FAA8F0065797A /* Persistence.swift */,
+			);
+			path = Persistence;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,7 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA47B4C52B8FAA8F0065797A /* PayCulatorTests.swift in Sources */,
+				BA47B4C52B8FAA8F0065797A /* PayculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,8 +322,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA47B4D12B8FAA8F0065797A /* PayCulatorUITestsLaunchTests.swift in Sources */,
-				BA47B4CF2B8FAA8F0065797A /* PayCulatorUITests.swift in Sources */,
+				BA47B4D12B8FAA8F0065797A /* PayculatorUITestsLaunchTests.swift in Sources */,
+				BA47B4CF2B8FAA8F0065797A /* PayculatorUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

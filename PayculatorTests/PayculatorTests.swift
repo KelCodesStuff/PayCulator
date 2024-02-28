@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import PayCulator
+@testable import Payculator
 
 final class PayCulatorTests: XCTestCase {
 
