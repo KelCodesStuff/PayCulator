@@ -55,33 +55,32 @@ struct SalaryCalculatorView: View {
                 Button("Calculate") {
                     calculateSalaries()
                 }
-                .foregroundColor(.green)
                 .frame(maxWidth: .infinity)
                 
                 Section(header: Text("Results")) {
                     HStack {
-                        Text("Weekly:")
+                        Text("Weekly")
                         Spacer()
                         Text("$\(weeklySalary, specifier: "%.2f")")
                             .multilineTextAlignment(.trailing)
                     }
                     
                     HStack {
-                        Text("Biweekly:")
+                        Text("Biweekly")
                         Spacer()
                         Text("$\(biweeklySalary, specifier: "%.2f")")
                             .multilineTextAlignment(.trailing)
                     }
                     
                     HStack {
-                        Text("Monthly:")
+                        Text("Monthly")
                         Spacer()
                         Text("$\(monthlySalary, specifier: "%.2f")")
                             .multilineTextAlignment(.trailing)
                     }
                     
                     HStack {
-                        Text("Annual:")
+                        Text("Annual")
                         Spacer()
                         Text("$\(annualSalary, specifier: "%.2f")")
                             .multilineTextAlignment(.trailing)
@@ -93,7 +92,6 @@ struct SalaryCalculatorView: View {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     NavigationLink(destination: SettingsView()) {
                         Image(systemName: "gear")
-                            .foregroundColor(.green)
                     }
                 }
             }
@@ -110,7 +108,7 @@ struct SalaryCalculatorView: View {
               let hoursWorkedValue = Double(hoursWorked),
               let taxPercentValue = Double(taxPercent),
               hourlyRateValue >= 0, hoursWorkedValue >= 0, taxPercentValue >= 0, taxPercentValue <= 100 else {
-            alertMessage = "Fields cannot be negative and tax percent is between 0 and 100."
+            alertMessage = "Fields cannot be empty, tax percent must be between 0 and 100."
             showAlert = true
             return
         }
