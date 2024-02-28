@@ -6,9 +6,4 @@ Payculator is a finance app that anyone can use to calculate their pay. If you'r
 
 ### Current Status and Project Goals
 
-This project is in the beta stage of development. Email me at kreidva@icloud.com if you would like to participate in the beta and if you experience any issues during use.
 
-
-
-
-![alt text](https://raw.githubusercontent.com/kelcodesstuff/Payculator/master/Docs/iPhone8Plus-1.png)
